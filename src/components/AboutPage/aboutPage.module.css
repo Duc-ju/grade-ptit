@@ -1,0 +1,42 @@
+.root {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.root a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.root a:hover {
+    color: var(--background-color-secondary);
+}
+
+.root * {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.root ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.root ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .root * {
+        font-size: 15px;
+    }
+}

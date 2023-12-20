@@ -1,0 +1,84 @@
+.root {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: all .3s linear;
+}
+
+.closeArea {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #888888;
+    z-index: 10000;
+    opacity: 0.5;
+    transition: opacity .1s linear;
+    cursor: pointer;
+}
+
+.contentArea {
+    position: relative;
+    z-index: 100000;
+    width: var(--modal-width);
+    height: var(--modal-height);
+}
+
+.content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow-primary);
+    overflow: hidden;
+}
+
+.closeButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(8px, -8px);
+    background-color: white;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: var(--primary-color);
+}
+
+.closeButton svg {
+    fill: var(--primary-color);
+}
+
+.closeButton:hover svg {
+    fill: white;
+}
+
+.closeArea.close {
+    opacity: 0;
+    display: none;
+}
+
+.root.close {
+    transform: translateY(100vh);
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contentArea {
+        width: 90vw;
+    }
+}

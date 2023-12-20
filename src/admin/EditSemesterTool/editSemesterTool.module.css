@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(32px + var(--header-height));
+}
+
+.root select {
+    background-color: var(--background-color-primary);
+    border: 1px solid var(--background-color-primary);
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    width: fit-content;
+}
+
+.root select:focus-visible {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.buttonGroup {
+    display: flex;
+    column-gap: 16px;
+}

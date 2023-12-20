@@ -1,0 +1,81 @@
+.root {
+
+}
+
+.table {
+    display: grid;
+}
+
+.table-6 {
+    grid-template-columns: 16% 16% 16% 16% 16% 20%;
+}
+
+.table-5 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.table-4 {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+}
+
+.inputContainer + .inputContainer,
+.heading + .heading {
+    border-left: none;
+}
+
+.res,
+.inputContainer {
+    border: 1px solid var(--primary-color);
+    border-top: none;
+}
+
+.inputContainer input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.res {
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-left: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .heading {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .inputContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .inputContainer input {
+        font-size: 14px;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .res {
+        font-size: 14px;
+    }
+}

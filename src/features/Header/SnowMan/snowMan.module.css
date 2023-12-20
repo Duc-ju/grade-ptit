@@ -1,0 +1,42 @@
+.snowman {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    z-index: 0;
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+
+.snowman.isPlaying {
+    animation: shake 3s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.snowman img {
+    width: 90px;
+    height: 90px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .snowman {
+        right: 0;
+        left: unset;
+    }
+}

@@ -1,0 +1,61 @@
+.root {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    box-shadow: var(--shadow-primary);
+    position: relative;
+    z-index: 100;
+}
+
+.contactTitle {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.contactLinks {
+    display: flex;
+    align-items: center;
+}
+
+.facebookLink, .gmailLink {
+    display: block;
+    border-radius: 4px;
+    padding: 2px 4px 0 4px;
+}
+
+.facebookLink:hover, .gmailLink:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-primary);
+}
+
+.facebookLink svg, .gmailLink svg {
+    font-size: 30px;
+}
+
+.facebookLink svg {
+    color: #4664a5;
+}
+
+.gmailLink svg {
+    color: #d34b3d;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    column-gap: 4px;
+}
+
+.heart {
+    color: var(--primary-color);
+    transform: translateY(2px);
+}

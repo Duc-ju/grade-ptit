@@ -1,0 +1,206 @@
+.root {
+  position: relative;
+
+  .resetContainer {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .targetContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    font-size: 16px;
+
+    .target {
+      background-color: var(--background-color-secondary);
+      color: white;
+      border: 1px solid var(--background-color-secondary);
+      font-size: 16px;
+      outline: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+  }
+
+  .control {
+
+    .target, .reset, .sync {
+      background-color: var(--background-color-secondary);
+      color: white;
+      border: 1px solid var(--background-color-secondary);
+      font-size: 18px;
+      outline: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .sync {
+      position: relative;
+
+      .asyncCount {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid var(--primary-color);
+        background-color: white;
+        color: var(--primary-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 700;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+      }
+    }
+
+    .target:focus-visible, .reset:focus-visible,
+    .target:hover, .reset:hover, .sync:focus-visible, .sync:hover {
+      outline: none;
+      border: 1px solid var(--primary-color);
+    }
+
+    .reset {
+    }
+
+    .description {
+      margin: 16px auto 6px auto;
+      display: block;
+      max-width: 600px;
+      text-align: center;
+    }
+  }
+
+  .semester {
+    margin-bottom: 168px;
+
+    .droppedInfo {
+      margin-top: 16px;
+      color: var(--primary-color);
+      font-weight: 500;
+      font-size: 16px;
+      text-align: justify;
+
+      svg {
+        font-size: 24px;
+        margin-right: 4px;
+        transform: translateY(4px);
+      }
+    }
+  }
+
+  .buttonTopGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .summary {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-top: 1px solid var(--background-color-secondary);
+    box-shadow: var(--shadow-primary);
+    z-index: 1000;
+
+    .footerTitle {
+      font-size: 18px;
+    }
+
+    p {
+      margin: 6px 0;
+
+      span {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 4px 8px;
+        color: white;
+        background-color: var(--background-color-secondary);
+        border-radius: 0.75rem;
+      }
+
+      .lineThrough {
+        text-decoration: line-through;
+        background-color: grey;
+      }
+
+      .newSumary {
+        margin-left: 4px;
+      }
+    }
+
+    .bottomButton {
+      display: flex;
+      column-gap: 8px;
+    }
+
+    .saveButton, .duplicateButton, .importButton {
+      outline: none;
+      border: none;
+      background-color: var(--primary-color);
+      padding: 6px 20px;
+      color: white;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 8px;
+
+      &:hover {
+        background-color: var(--background-color-secondary);
+      }
+
+      span {
+        font-size: 16px;
+        background-color: unset;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .root {
+    .control {
+      .target, .reset, .sync {
+        font-size: 14px;
+        padding: 4px;
+      }
+    }
+
+    .summary {
+      padding-top: 6px;
+      padding-bottom: 0;
+      flex-direction: column;
+      justify-content: unset;
+
+      .footerTitle {
+        margin: 0 0 6px 0;
+      }
+
+      p {
+        margin-top: 4px;
+
+        .saveButton, .duplicateButton, .importButton {
+          padding: 6px 12px;
+
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

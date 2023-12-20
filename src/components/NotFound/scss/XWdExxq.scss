@@ -1,0 +1,213 @@
+// VARIABLES
+$n: null;
+$bf: "&::before";
+$af: "&::after";
+$bfaf: $bf, $af;
+$bdt: border-top;
+$bdr: border-right;
+$bdb: border-bottom;
+$bdl: border-left;
+$bl: block;
+$fl: flex;
+$in: inline;
+$ib: inline-block;
+$no: none;
+$ab: absolute;
+$rl: relative;
+$fx: fixed;
+$st: sticky;
+$c: center;
+$t: top;
+$r: right;
+$b: bottom;
+$l: left;
+$rp: repeat;
+$rpx: repeat-x;
+$rpy: repeat-y;
+$nrp: no-repeat;
+$rw: row wrap;
+$rnw: row nowrap;
+$cw: column wrap;
+$cnw: column nowrap;
+$spa: space-around;
+$spb: space-between;
+
+// DIMENSION
+@mixin _dimension($width, $height: $width) {
+  width: $width;
+  height: $height
+}
+
+// SPACE
+@mixin _space($margin, $padding: $margin) {
+  margin: $margin;
+  padding: $padding
+}
+
+// OFFSET
+@mixin _offset($top, $right, $bottom, $left) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left
+}
+
+// LAYOUT
+@mixin _layout($display, $position, $float) {
+  display: $display;
+  position: $position;
+  float: $float
+}
+
+// RELATIVE BOX
+@mixin _relative-box($background, $margin, $padding, $width, $height: $width) {
+  background: $background;
+  @include _dimension($width, $height);
+  @include _space($margin, $padding)
+}
+
+// SOLID BOX
+@mixin _solid-box($background, $padding, $top, $right, $bottom, $left, $width, $height: $width) {
+  @include _relative-box($background, $n, $padding, $width, $height);
+  @include _offset($top, $right, $bottom, $left)
+}
+
+// FLEXBOX
+@mixin _flexbox($position, $flex-flow, $align-items, $align-content, $justify-content: $align-content) {
+  @include _layout($fl, $position, $n);
+  flex-flow: $flex-flow;
+  align-items: $align-items;
+  align-content: $align-content;
+  justify-content: $justify-content
+}
+
+// TEXT
+@mixin _text($color, $font, $text-align) {
+  color: $color;
+  font: $font;
+  text-align: $text-align
+}
+
+// PSEUDO COMPLETE
+@mixin _pseudo-complete($selector, $display, $background, $top, $right, $bottom, $left, $width, $height: $width) {
+  #{$selector} {
+    @include _solid-box($background, $n, $top, $right, $bottom, $left, $width, $height);
+    @include _layout($display, $ab, $n);
+    @content;
+    content: ""
+  }
+}
+
+// PSEUDO UNCOMPLETE
+@mixin _pseudo-uncomplete($selector, $display) {
+  #{$selector} {
+    @content;
+    @include _layout($display, $ab, $n);
+    content: ""
+  }
+}
+
+// ANIMATION
+@mixin _animation($name, $arguments, $type-of-keyframes) {
+  animation: $name $arguments;
+  @if $type-of-keyframes == to {
+    @keyframes #{$name}{
+      to {
+        @content;
+      }
+    }
+  } @else {
+    @keyframes #{$name}{
+      @content;
+    }
+  }
+}
+
+// ANIMATION HIDE-SHOW
+@mixin _hide-show($arguments) {
+  @include _animation(hide-show, $arguments, x) {
+    0%, 99% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+}
+
+// KEYFRAMES
+@mixin _keyframes($name, $type-of-keyframes) {
+  @if $type-of-keyframes == to {
+    @keyframes #{$name}{
+      to {
+        @content;
+      }
+    }
+  } @else {
+    @keyframes #{$name}{
+      @content;
+    }
+  }
+}
+
+// ARROW
+@mixin _arrow($type-of-border_1, $type-of-border_2, $type-of-border_3, $border-width, $border-color) {
+  --tsp: calc(#{$border-width} / 2) solid transparent;
+  $solid: $border-width solid $border-color;
+  #{$type-of-border_1}: var(--tsp);
+  #{$type-of-border_2}: var(--tsp);
+  #{$type-of-border_3}: $solid
+}
+
+// FACE 3D
+@mixin _face-3d($translateZ) {
+  .face-3d {
+    --tz: translateZ(#{$translateZ});
+    @content;
+    @include _dimension(100%);
+    position: $ab
+  }
+
+  .front {
+    transform: var(--tz)
+  }
+  .top {
+    transform: rotateX(90deg) var(--tz)
+  }
+  .right {
+    right: 0;
+    transform: rotateY(90deg) var(--tz)
+  }
+  .bottom {
+    bottom: 0;
+    transform: rotateX(-90deg) var(--tz)
+  }
+  .left {
+    transform: rotateY(-90deg) var(--tz)
+  }
+  .back {
+    transform: rotateY(180deg) var(--tz)
+  }
+}
+
+// BOX & TEXT SHADOW
+@function _shadow($length, $direction, $value, $h-offset, $v-offset, $blur, $spread, $color) {
+  @for $i from 1 through $length {
+    $blur-spread-color: $blur $spread hsl(0, 0, 100% - ($i * $color));
+    @if $direction == vertical {
+      $value: $value, $h-offset ($i * $v-offset) $blur-spread-color
+    } @else {
+      $value: $value, ($i * $h-offset) $v-offset $blur-spread-color
+    }
+  }
+  @return $value;
+}
+
+// BACKGROUND IMAGE
+@mixin _image($background-color, $background-image, $background-size, $background-position, $background-repeat) {
+  background-color: $background-color;
+  background-image: $background-image;
+  background-size: $background-size;
+  background-position: $background-position;
+  background-repeat: $background-repeat;
+}

@@ -1,0 +1,63 @@
+.root {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.predict {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.star {
+    color: white;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.star .text {
+    position: relative;
+    z-index: 10;
+    font-size: 13px;
+    transform: translateY(-2px);
+}
+
+.star .icon{
+    position: absolute;
+    z-index: 1;
+}
+
+.star .icon svg {
+    font-size: 40px;
+    color: var(--background-color-secondary);
+}
+
+.predictMark {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.root svg:global(.recharts-surface) {
+
+}
+
+.aiButton {
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-left: 4px;
+    display: inline-flex;
+    background-color: var(--background-color-secondary);
+}
+
+.aiButton span {
+    font-size: 15px;
+}
+
+.aiButton svg {
+    font-size: 14px;
+}

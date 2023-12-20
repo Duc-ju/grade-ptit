@@ -1,0 +1,64 @@
+
+.changeTable {
+    display: grid;
+    grid-template-columns: 20% 20% 40% 20%;
+}
+
+.changeTable > * {
+    border: 1px solid var(--primary-color);
+    font-size: 16px;
+    padding: 4px;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.changeTable > *.center {
+    justify-content: center;
+}
+
+.changeTable > *.bold {
+    font-weight: 500;
+}
+
+.changeTable > *.tableHeader {
+    border-top: 1px solid var(--primary-color);
+    justify-content: center;
+    font-weight: 500;
+}
+
+.first {
+
+}
+
+.tableHeader + .tableHeader:not(.first) {
+    border-left: none;
+}
+
+.tableContent + .tableContent:not(.first) {
+    border-left: none;
+}
+
+.tableContent {
+    font-weight: 600;
+    color: var(--deleted-color);
+}
+
+.idContainer {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .changeTable * {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 638px) {
+    .changeTable * {
+        font-size: 13px;
+    }
+}

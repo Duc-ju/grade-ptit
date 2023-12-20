@@ -1,0 +1,22 @@
+.root {
+
+}
+
+.root > h3 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.fbLink {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.postContainer {
+    max-width: 100%;
+}
+
+.postContainer div[data-testid="newsFeedStream"] {
+    width: 100%!important;
+}

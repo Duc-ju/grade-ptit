@@ -1,0 +1,160 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    background-color: var(--background-color-primary);
+}
+
+.parentContainer {
+    width: 1000px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.topContainer {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .facebookPage {
+    width: 800px;
+    max-width: 90%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-primary);
+}
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header h2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.inputContainer {
+    width: 100%;
+    padding: 16px 16px 0 16px;
+    box-sizing: border-box;
+}
+
+.inputContainer select {
+    outline: none;
+    display: block;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+    border: 1px solid #F0F2F5;
+}
+
+.inputContainer select:hover, .inputContainer select:focus-visible {
+    border: 1px solid var(--primary-color);
+}
+
+.pointTable {
+    padding: 32px 16px;
+    min-height: 290px;
+    overflow-y: auto;
+}
+
+.aboutContainer, .tagContainer {
+    width: 800px;
+    max-width: 90%;
+}
+
+.aboutContainer h3 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.mappingTable {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    margin-top: 8px;
+}
+
+.mappingTable * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+    font-size: 16px;
+}
+
+.mappingTable *:not(.first) {
+    border-left: none;
+}
+
+.mappingTable .headTitle {
+    font-weight: 600;
+}
+
+.mappingTable *:not(.headTitle) {
+    border-top: none;
+}
+
+.about {
+    padding: 0;
+}
+
+.about li {
+    margin-top: 8px;
+}
+
+.about li span {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about li svg {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.tagContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .root {
+        background-color: white;
+    }
+
+    .inputContainer select {
+        font-size: 15px;
+    }
+
+    .about li span {
+        font-size: 14px;
+    }
+
+    .mappingTable * {
+        font-size: 14px;
+    }
+}

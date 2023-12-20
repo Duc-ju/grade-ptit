@@ -1,0 +1,18 @@
+.root {
+
+}
+
+.tag {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 6px;
+    background-color: var(--grey-color);
+    border-radius: 8px;
+}
+
+.tag + .tag {
+    margin-left: 4px;
+    margin-top: 4px;
+}

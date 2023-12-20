@@ -1,0 +1,107 @@
+.root {
+  p, h2 {
+    margin: 0;
+  }
+
+  .target {
+    font-size: 18px;
+    font-weight: 600;
+
+    .targetMark {
+      color: var(--primary-color);
+    }
+  }
+
+  .container {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    select {
+      background-color: var(--background-color-primary);
+      padding: 2px;
+      border: 1px solid var(--background-color-secondary);
+      font-size: 15px;
+    }
+
+    .info {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+
+      h2 {
+        font-weight: 500;
+        font-size: 18px;
+      }
+
+      .badge {
+        font-size: 15px;
+        font-weight: 300;
+        padding: 4px 8px;
+        color: white;
+        background-color: var(--background-color-secondary);
+        border-radius: 0.75rem;
+      }
+    }
+
+    .value {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  &.edit {
+    position: relative;
+    margin-right: 10px;
+
+    .editButton {
+      position: absolute;
+      right: -16px;
+      top: 0;
+      cursor: pointer;
+      border-radius: 50%;
+      padding: 4px 8px;
+
+      svg {
+        color: var(--primary-color);
+        font-size: 16px;
+      }
+
+      &:hover {
+        background-color: var(--background-color-secondary);
+
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.root + .root {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .root {
+    .container {
+      .info {
+        h2 {
+          font-size: 14px;
+        }
+
+        .badge {
+          font-size: 12px;
+        }
+      }
+
+      select {
+        font-size: 12px;
+      }
+    }
+  }
+}

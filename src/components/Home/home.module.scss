@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topContainer {
+  min-height: calc(100vh - var(--header-height));
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.button {
+  padding: 24px 40px;
+  min-width: 260px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 22px;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.facebookPage, .tagContainer {
+  width: 800px;
+  max-width: 90%;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-primary);
+}
+
+.tagContainer {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .topContainer {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  .button {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+  }
+}

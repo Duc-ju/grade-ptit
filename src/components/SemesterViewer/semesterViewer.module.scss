@@ -1,0 +1,176 @@
+.root {
+  padding: 16px;
+  border: 1px solid var(--background-color-secondary
+  );
+
+  .name {
+    margin-top: 0;
+  }
+
+  .summary {
+    margin-top: 16px;
+
+    p {
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 15px;
+      font-weight: 300;
+      padding: 4px 8px;
+      color: white;
+      background-color: var(--primary-color);
+      border-radius: 0.75rem;
+    }
+
+    .lineThrough {
+      text-decoration: line-through;
+      background-color: grey;
+    }
+
+    .newSumary {
+      margin-left: 4px;
+    }
+  }
+
+  .toggleButtonCover {
+    display: block;
+    position: relative;
+    height: 36px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .buttonCover, .knobs, .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .buttonCover {
+    width: 100%;
+  }
+
+  .button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px 0 0 auto;
+    overflow: hidden;
+  }
+
+  .button.r, .button.r .layer {
+    border-radius: 100px;
+  }
+
+  .button.b2 {
+    border-radius: 2px;
+  }
+
+  .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .knobs {
+    z-index: 2;
+  }
+
+  .layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+
+  .knobs:before {
+    content: 'KEEP';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 24px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: var(--background-color-secondary);
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+  }
+
+  .checkbox:checked + .knobs:before {
+    content: 'EDIT';
+    left: 42px;
+    background-color: var(--primary-color);
+  }
+
+  .checkbox:checked ~ .layer {
+    background-color: #fcebeb;
+  }
+
+  #button1 .knobs, #button1 .knobs:before, #button1 .layer {
+    transition: 0.3s ease all;
+  }
+
+  .addSubjectButton {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+    height: 32px;
+    border: 1px solid var(--background-color-secondary);
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: var(--background-color-secondary);
+
+    svg {
+      color: var(--background-color-secondary);
+      font-size: 20px;
+    }
+
+    &:hover {
+      border: 1px solid var(--primary-color);
+      color: var(--primary-color);
+      transform: translateY(-2px);
+
+      svg {
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+
+.root + .root {
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .root {
+    .summary {
+      p {
+        font-size: 14px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}

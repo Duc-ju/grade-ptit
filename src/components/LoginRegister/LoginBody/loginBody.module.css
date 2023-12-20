@@ -1,0 +1,134 @@
+.body {
+    padding: 0 32px 32px 32px;
+}
+
+.body > *:first-child {
+    font-weight: 400;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    column-gap: 24px;
+}
+
+.social > * {
+    width: 50%;
+}
+
+.googleButton, .facebookButton {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.googleButton:hover, .facebookButton:hover {
+    background-color: var(--primary-color);
+}
+
+.googleButton:hover *, .facebookButton:hover * {
+    color: white;
+}
+
+
+.icon {
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleButton svg {
+    fill: white;
+}
+
+.googleButton .icon {
+    background-color: var(--primary-color);
+}
+
+.facebookButton svg {
+    fill: #4267b2;
+}
+
+.facebookButton .icon {
+    background-color: white;
+}
+
+.googleButton, .facebookButton {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: var(--background-color-primary);
+    display: flex;
+    justify-content: center;
+}
+
+.br {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.inputGroup + .inputGroup {
+    margin-top: 16px;
+}
+
+.fieldLabel {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.textInput {
+    background-color: var(--background-color-primary);
+    border: 1px solid var(--background-color-primary);
+    font-size: 20px;
+    display: block;
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.textInput:hover,
+.textInput:focus, .textInput:focus-visible {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.forgotPassword {
+    text-align: right;
+    font-style: italic;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    font-size: 16px;
+    margin-left: 16px;
+    color: var(--primary-color);
+}
+
+.loginButton {
+}
+
+@media only screen and (max-width: 1024px) {
+    .body {
+        padding: 0 12px 12px 12px;
+    }
+
+    .loginButton {
+        height: 44px;
+        font-size: 22px;
+    }
+}

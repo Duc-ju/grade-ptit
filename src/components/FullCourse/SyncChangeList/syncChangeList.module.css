@@ -1,0 +1,119 @@
+.root {
+    height: var(--modal-height);
+    overflow-y: auto;
+}
+
+.container {
+    padding: 16px 16px 68px 16px;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 16px 0;
+}
+
+.semesterContainer + .semesterContainer {
+    margin-top: 20px;
+}
+
+.semesterTitle {
+    margin-bottom: 6px;
+    margin-left: 4px;
+}
+
+.root::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.root::-webkit-scrollbar {
+    visibility: hidden;
+    width: 8px;
+}
+.root:hover::-webkit-scrollbar {
+    visibility: visible;
+    width: 8px;
+    background-color: #f5f5f5;
+}
+.root::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+.root:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    border-radius: 10px;
+    background-color: var(--background-color-secondary);
+}
+
+.buttonContainer {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 8px 32px;
+    box-shadow: var(--shadow-primary);
+    border-top: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
+    border-left: 0;
+    width: 100%;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+}
+
+.updateButton, .cancelButton, .fillButton {
+    padding: 8px 16px;
+}
+
+.updateButton span, .cancelButton span, .fillButton span {
+    font-size: 16px;
+}
+
+.fillButton {
+    background-color: var(--background-color-secondary);
+}
+
+.cancelButton {
+    background-color: var(--disable-color);
+}
+
+div[class*="changeTable"] + div[class*="changeTable"] {
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .root::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .container {
+        padding: 6px 6px 108px 6px;
+    }
+
+    .changeTable > * {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .semesterTitle {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 638px) {
+    .buttonContainer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .updateButton span, .cancelButton span, .fillButton span {
+        font-size: 13px;
+    }
+}
