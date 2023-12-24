@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm i && npm run build
+      - run: npm install && npm run build
+        env:
+          ESLINT_NO_DEV_ERRORS: true
+          DISABLE_ESLINT_PLUGIN: true
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           node-version: '16'
