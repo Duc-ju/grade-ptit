@@ -53,7 +53,7 @@ function ScheduleGrade() {
       navigate("/");
       toast.error("Bạn không có quyền xem hồ sơ này");
     }
-  }, [file, navigate]);
+  }, [file, navigate, deny]);
 
   useEffect(() => {
     const handleScroll = () => {

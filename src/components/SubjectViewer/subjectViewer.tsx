@@ -157,9 +157,9 @@ function SubjectViewer(props: {
         continue;
       }
       semester.subjects = semester.subjects.filter(
-        (subject: Subject) =>
-          subject.id !== subject.id &&
-          hasDiffMappingId(subject.mappingId, subject.mappingId)
+        (s: Subject) =>
+          s.id !== subject.id &&
+          hasDiffMappingId(s.mappingId, subject.mappingId)
       );
     }
     setFile(clonedFile);

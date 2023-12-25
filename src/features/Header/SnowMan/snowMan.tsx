@@ -25,9 +25,7 @@ function SnowMan() {
       const randomIndex = Math.floor(Math.random() * 5);
       audioRef.current.load();
       audioRef.current.play();
-      setCurrentAudio(
-        (oldCurrentAudio) => (oldCurrentAudio + 1) % audioTunes.length
-      );
+      setCurrentAudio(randomIndex);
     }
     setPlaying((oldPlaying) => !oldPlaying);
   };

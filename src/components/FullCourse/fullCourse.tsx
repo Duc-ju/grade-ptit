@@ -48,7 +48,6 @@ function FullCourse() {
   ) as FileContextType;
   const [saveLoading, setSaveLoading] = useState(false);
   const [duplicateLoading, setDuplicateLoading] = useState(false);
-  const [importLoading, setImportLoading] = useState(false);
   const importFileRef = React.createRef<HTMLInputElement>();
   const { showModal } = useContext(ModalContext) as ModalContextType;
   const { user } = useContext(AuthContext) as AuthContextType;
@@ -438,7 +437,6 @@ function FullCourse() {
 
   const importProcess = (handledFile: File, newSemesterState: Semester[]) => {
     if (!file) return;
-    setImportLoading(true);
     db.collection("files")
       .doc(file.id)
       .update({
@@ -450,8 +448,7 @@ function FullCourse() {
         setSemesterState(newSemesterState);
         toast.info("Import điểm thành công");
       })
-      .catch((e) => toast.error("Import điểm thất bại"))
-      .finally(() => setImportLoading(false));
+      .catch((e) => toast.error("Import điểm thất bại"));
   };
 
   const processSemesterState = (handledFile: File, updateRootMark: boolean) => {
