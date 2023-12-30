@@ -1,1 +1,22 @@
-{"TTDPT":"Truyền thông đa phương tiện","ATTT":"An toàn thông tin","CNDPT_PTUDDPT":"Công nghệ đa phương tiện - Phát triển ứng dụng Đa phương tiện","CNDPT_TKDHDPT":"Công nghệ đa phương tiện - Thiết kế đồ họa đa phương tiện","CNKTDDT_KTDTMT":"Công nghệ kỹ thuật điện, điện tử - Kỹ thuật điện tử máy tính","CNKTDDT_XLTHVTT":"Công nghệ kỹ thuật điện, điện tử - Xử lý tín hiệu & Truyền thông","CNTT_CNPM":"Công nghệ thông tin - Công nghệ phần mềm","CNTT_HTTT":"Công nghệ thông tin - Hệ thống thông tin","KT":"Kế toán","KTDTVT_HTI":"Kỹ thuật điện tử viễn thông - Hệ thống IoT","KTDTVT_MVDVI":"Kỹ thuật điện tử viễn thông - Mạng và dịch vụ Internet","KTDTVT_TTVTVDD":"Kỹ thuật điện tử viễn thông - Thông tin vô tuyến di động","M_IM":"Marketing - Internet Marketing","M_PTDLMS":"Marketing - Phân tích dữ liệu Marketing số","QTKD_QTDN":"Quản trị kinh doanh - Quản trị doanh nghiệp","QTKD_TMDT":"Quản trị kinh doanh - Thương mại điện tử","TMDT":"Thương mại điện tử","CNTCF":"Công nghệ tài chính Fintech","BC":"Báo chí","KHMT":"Khoa học máy tính"}
+{
+  "TTDPT": "Truyền thông đa phương tiện",
+  "ATTT": "An toàn thông tin",
+  "CNDPT_PTUDDPT": "Công nghệ đa phương tiện - Phát triển ứng dụng Đa phương tiện",
+  "CNDPT_TKDHDPT": "Công nghệ đa phương tiện - Thiết kế đồ họa đa phương tiện",
+  "CNKTDDT_KTDTMT": "Công nghệ kỹ thuật điện, điện tử - Kỹ thuật điện tử máy tính",
+  "CNKTDDT_XLTHVTT": "Công nghệ kỹ thuật điện, điện tử - Xử lý tín hiệu & Truyền thông",
+  "CNTT_CNPM": "Công nghệ thông tin - Công nghệ phần mềm",
+  "CNTT_HTTT": "Công nghệ thông tin - Hệ thống thông tin",
+  "KT": "Kế toán",
+  "KTDTVT_HTI": "Kỹ thuật điện tử viễn thông - Hệ thống IoT",
+  "KTDTVT_MVDVI": "Kỹ thuật điện tử viễn thông - Mạng và dịch vụ Internet",
+  "KTDTVT_TTVTVDD": "Kỹ thuật điện tử viễn thông - Thông tin vô tuyến di động",
+  "M_IM": "Marketing - Internet Marketing",
+  "M_PTDLMS": "Marketing - Phân tích dữ liệu Marketing số",
+  "QTKD_QTDN": "Quản trị kinh doanh - Quản trị doanh nghiệp",
+  "QTKD_TMDT": "Quản trị kinh doanh - Thương mại điện tử",
+  "TMDT": "Thương mại điện tử",
+  "CNTCF": "Công nghệ tài chính Fintech",
+  "BC": "Báo chí",
+  "KHMT": "Khoa học máy tính"
+}

@@ -6,7 +6,6 @@ import { addDocument } from "../../firebase/service";
 import mergeClassNames from "merge-class-names";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router";
-import masterCourseListJSON from "../../master-data/masterCourseList.json";
 import * as validate from "../../utils/validate";
 import majorMappingJSON from "../../master-data/majorMapping.json";
 import { useParams } from "react-router-dom";
@@ -18,6 +17,11 @@ import Tags from "../Tags";
 import { FcNext } from "@react-icons/all-files/fc/FcNext";
 import { File } from "../../entity/file";
 import LoadingButton from "../../common-components/LoadingButton";
+import {
+  getMasterCourseKeyList,
+  getMasterMajor,
+  getMasterMajorKeyList,
+} from "../../master-data/masterData";
 
 function CreateRootFile() {
   const params = useParams();
@@ -30,7 +34,6 @@ function CreateRootFile() {
   const [majorError, setMajorError] = useState("");
   const [fetching, setFetching] = useState(false);
   const navigate = useNavigate();
-  const masterCourseList = masterCourseListJSON as any;
   const majorMapping = majorMappingJSON as any;
 
   useEffect(() => {
@@ -123,7 +126,7 @@ function CreateRootFile() {
       course,
       major,
       keywords: getAllSubstrings(user.studentCode),
-      semester: masterCourseList[course][major],
+      semester: getMasterMajor(course, major),
       root: true,
       isPublic,
     })
@@ -164,7 +167,7 @@ function CreateRootFile() {
               course,
               major,
               isPublic,
-              semester: masterCourseList[course][major],
+              semester: getMasterMajor(course, major),
             })
           )
         : JSON.parse(
@@ -198,14 +201,6 @@ function CreateRootFile() {
     if (majorError && !validateMajor) setMajorError("");
     if (majorError && validateMajor) setMajorError(validateMajor);
   };
-  const courseList = (() => {
-    return Object.keys(masterCourseList);
-  })();
-
-  const majorList = (() => {
-    if (!course) return [];
-    return Object.keys(masterCourseList[course]);
-  })();
   const title = !params.id ? "Tạo hồ sơ gốc" : "Cập nhật hồ sơ gốc";
   if (!user) return null;
   return (
@@ -227,7 +222,7 @@ function CreateRootFile() {
               />
               <select onChange={handleChangeCourse} value={course}>
                 <option value={""}>Khoá học</option>
-                {courseList.map((course) => (
+                {getMasterCourseKeyList().map((course) => (
                   <option value={course} key={course}>
                     {course}
                   </option>
@@ -238,7 +233,7 @@ function CreateRootFile() {
               )}
               <select onChange={handleChangeMajor} value={major}>
                 <option value={""}>Ngành học</option>
-                {majorList.map((major) => (
+                {getMasterMajorKeyList(course).map((major) => (
                   <option value={major} key={major}>
                     {majorMapping[major]}
                   </option>

@@ -6,7 +6,6 @@ import { toast } from "react-toastify";
 import { addDocument, getFileCount } from "../../firebase/service";
 import { useNavigate } from "react-router";
 import firebase from "firebase/compat/app";
-import masterCourseListJSON from "../../master-data/masterCourseList.json";
 import {
   ModalContext,
   ModalContextType,
@@ -38,6 +37,7 @@ import {
   SynchronousSemesterChange,
   SynchronousSubjectChange,
 } from "./SyncChangeList/synchronousChange";
+import { getMasterMajor } from "../../master-data/masterData";
 
 function FullCourse() {
   const EXCEL_INDEX_POSITION = 0;
@@ -54,7 +54,6 @@ function FullCourse() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const id = searchParams.get("id");
-  const masterCourseList = masterCourseListJSON as any;
   useEffect(() => {
     if (user && file && !file.isOwner && id)
       toast.info("Bạn đang xem hồ sơ với tư cách khách");
@@ -133,13 +132,13 @@ function FullCourse() {
             JSON.stringify({
               ...file,
               target: "",
-              semester: masterCourseList[file.course][file.major],
+              semester: getMasterMajor(file.course, file.major),
             })
           )
         )
         .then((res) => {
           toast.info("Đã reset hồ sơ");
-          setSemesterState(masterCourseList[file.course][file.major]);
+          setSemesterState(getMasterMajor(file.course, file.major));
         })
         .catch((e) => toast.error("Reset hồ sơ thất bại"));
     }
@@ -148,7 +147,7 @@ function FullCourse() {
   const asyncCount = (() => {
     if (!file) return 0;
     let count = 0;
-    let localSemesters = masterCourseList[file.course][file.major];
+    let localSemesters = getMasterMajor(file.course, file.major);
     for (let semesterElement of file.semester) {
       let localSemester = localSemesters.find(
         (s: Semester) => s.id === semesterElement.id
@@ -201,7 +200,7 @@ function FullCourse() {
         semester: semesterState,
       })
     );
-    let localSemesters = masterCourseList[clonedFile.course][clonedFile.major];
+    let localSemesters = getMasterMajor(clonedFile.course, clonedFile.major);
     for (let semesterElement of clonedFile.semester) {
       let localSemester = localSemesters.find(
         (s: Semester) => s.id === semesterElement.id

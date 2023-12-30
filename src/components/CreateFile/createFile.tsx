@@ -4,7 +4,6 @@ import { AuthContext, AuthContextType } from "../../context-api/AuthProvider";
 import { useNavigate } from "react-router";
 import { addDocument, getFileCount } from "../../firebase/service";
 import { toast } from "react-toastify";
-import masterCourseListJSON from "../../master-data/masterCourseList.json";
 import * as validate from "../../utils/validate";
 import majorMappingJSON from "../../master-data/majorMapping.json";
 import { useParams } from "react-router-dom";
@@ -17,6 +16,11 @@ import Tags from "../Tags";
 import { FcNext } from "@react-icons/all-files/fc/FcNext";
 import { File } from "../../entity/file";
 import LoadingButton from "../../common-components/LoadingButton";
+import {
+  getMasterCourseKeyList,
+  getMasterMajor,
+  getMasterMajorKeyList,
+} from "../../master-data/masterData";
 
 function CreateFile() {
   const { user } = useContext(AuthContext) as AuthContextType;
@@ -32,7 +36,6 @@ function CreateFile() {
   const [majorError, setMajorError] = useState("");
   const [fetching, setFetching] = useState(false);
   const navigate = useNavigate();
-  const masterCourseList = masterCourseListJSON as any;
   const majorMapping = majorMappingJSON as any;
   useEffect(() => {
     if (!user) {
@@ -118,7 +121,7 @@ function CreateFile() {
           course,
           major,
           keywords: getAllSubstrings(studentCode),
-          semester: masterCourseList[course][major],
+          semester: getMasterMajor(course, major),
           root: false,
           isPublic: false,
         })
@@ -173,7 +176,7 @@ function CreateFile() {
               fullName,
               studentCode,
               keywords: getAllSubstrings(studentCode),
-              semester: masterCourseList[course][major],
+              semester: getMasterMajor(course, major),
             })
           )
         : JSON.parse(
@@ -223,14 +226,6 @@ function CreateFile() {
     if (majorError && !validateMajor) setMajorError("");
     if (majorError && validateMajor) setMajorError(validateMajor);
   };
-  const courseList = (() => {
-    return Object.keys(masterCourseList);
-  })();
-
-  const majorList = (() => {
-    if (!course) return [];
-    return Object.keys(masterCourseList[course]);
-  })();
 
   const title = !params.id ? "Tạo hồ sơ" : "Cập nhật hồ sơ";
 
@@ -259,7 +254,7 @@ function CreateFile() {
               )}
               <select onChange={handleChangeCourse} value={course}>
                 <option value={""}>Khoá học</option>
-                {courseList.map((course) => (
+                {getMasterCourseKeyList().map((course) => (
                   <option value={course} key={course}>
                     {course}
                   </option>
@@ -270,7 +265,7 @@ function CreateFile() {
               )}
               <select onChange={handleChangeMajor} value={major}>
                 <option value={""}>Ngành học</option>
-                {majorList.map((major) => (
+                {getMasterMajorKeyList(course).map((major) => (
                   <option value={major} key={major}>
                     {majorMapping[major]}
                   </option>

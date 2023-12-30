@@ -1,0 +1,484 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở văn hóa Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "MUL1240"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lịch sử văn minh thế giới",
+        "credit": 2,
+        "mappingId": [
+          "MUL12117"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pháp luật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "BSA1221"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật nhiếp ảnh",
+        "credit": 3,
+        "mappingId": [
+          "MUL1313",
+          "MUL13122"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Marketing căn bản",
+        "credit": 3,
+        "mappingId": [
+          "MAR1322"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Nhập môn đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1320"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Nhập môn PR",
+        "credit": 2,
+        "mappingId": [
+          "MUL1395"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nhập môn truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL1391"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tiếng Anh A11/A21",
+        "credit": 3,
+        "mappingId": [
+          "BAS1141",
+          "BAS1143"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Các loại hình báo chí hiện đại",
+        "credit": 2,
+        "mappingId": [
+          "MUL13119"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nhập môn quảng cáo",
+        "credit": 2,
+        "mappingId": [
+          "MUL13120"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phương pháp nghiên cứu truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL1289"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quay phim",
+        "credit": 3,
+        "mappingId": [
+          "MUL13147"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế đồ họa cơ bản",
+        "credit": 3,
+        "mappingId": [
+          "MUL1426"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh A12/A22",
+        "credit": 4,
+        "mappingId": [
+          "BAS1142",
+          "BAS1144"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Lịch sử Đảng cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lý thuyết truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL1392M"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pháp luật và đạo đức truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL13118"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh A21/B11",
+        "credit": 3,
+        "mappingId": [
+          "BAS1143",
+          "BAS1145"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Truyền thông xã hội",
+        "credit": 2,
+        "mappingId": [
+          "MUL1393"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Ứng dụng đồ họa đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL14113"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ứng dụng thiết kế web",
+        "credit": 3,
+        "mappingId": [
+          "MUL14114"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Biên tập văn bản báo chí",
+        "credit": 2,
+        "mappingId": [
+          "MUL1397"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nghệ thuật kể chuyện đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1398"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phỏng vấn: Lý thuyết và thực hành",
+        "credit": 2,
+        "mappingId": [
+          "MUL1399"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Rủi ro và xử lý khủng hoảng truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL13102"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế ấn phẩm báo chí",
+        "credit": 2,
+        "mappingId": [
+          "MUL1463"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh A22/B12",
+        "credit": 4,
+        "mappingId": [
+          "BAS1144",
+          "BAS1146"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Truyền thông và dư luận xã hội",
+        "credit": 2,
+        "mappingId": [
+          "MUL1394"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Viết đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1396"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Báo chí đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL14106"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Báo chí điều tra",
+        "credit": 2,
+        "mappingId": [
+          "MUL13101"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Diễn thuyết trước công chúng",
+        "credit": 2,
+        "mappingId": [
+          "MUL13100"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lý thuyết PR",
+        "credit": 2,
+        "mappingId": [
+          "MUL14108"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kịch bản đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1423"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Quảng cáo đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL14110"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Ứng dụng sản xuất audio và video",
+        "credit": 3,
+        "mappingId": [
+          "MUL14115"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Báo chí dữ liệu",
+        "credit": 2,
+        "mappingId": [
+          "MUL14107"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL13104"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "PR: Chiến lược và thực hành",
+        "credit": 3,
+        "mappingId": [
+          "MUL14109"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quản lý dự án truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL14112"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Quảng cáo: Chiến lược và thực hành",
+        "credit": 3,
+        "mappingId": [
+          "MUL14111"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thực hành chuyên sâu",
+        "credit": 4,
+        "mappingId": [
+          "MUL1482",
+          "MUL14116",
+          "TEL1417"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": []
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập tốt nghiệp",
+        "credit": 4,
+        "mappingId": [
+          "FIA1428"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Môn học thay thế 1",
+        "credit": 3,
+        "mappingId": [
+          "MHTT1"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Môn học thay thế 2",
+        "credit": 3,
+        "mappingId": [
+          "MHTT2"
+        ]
+      }
+    ]
+  }
+]

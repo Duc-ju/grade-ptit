@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Đại số",
+        "credit": 3,
+        "mappingId": [
+          "BAS1201"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Giải tích 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1203"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Giải tích 2",
+        "credit": 3,
+        "mappingId": [
+          "BAS1204"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật số",
+        "credit": 2,
+        "mappingId": [
+          "ELE1433"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tin học cơ sở 2",
+        "credit": 2,
+        "mappingId": [
+          "INT1155"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vật lý 1 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1224"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xác suất thống kê",
+        "credit": 2,
+        "mappingId": [
+          "BAS1226"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiến trúc máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1323",
+          "INT13145",
+          "TEL1338"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Ngôn ngữ lập trình C++",
+        "credit": 3,
+        "mappingId": [
+          "INT1339"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán rời rạc 1",
+        "credit": 3,
+        "mappingId": [
+          "INT1358"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vật lý 3 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1227"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "TEL1342",
+          "INT1306"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lý thuyết thông tin",
+        "credit": 3,
+        "mappingId": [
+          "ELE1319"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mạng máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1336"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán rời rạc 2",
+        "credit": 3,
+        "mappingId": [
+          "INT1359"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở an toàn thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT1472"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "TEL1343",
+          "INT1313"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hệ điều hành",
+        "credit": 3,
+        "mappingId": [
+          "INT1319",
+          "TEL1339"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Hệ điều hành Windows và Linux/Unix",
+        "credit": 3,
+        "mappingId": [
+          "INT1487"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lập trình hướng đối tượng",
+        "credit": 3,
+        "mappingId": [
+          "INT1332",
+          "TEL1448"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "An toàn hệ điều hành",
+        "credit": 2,
+        "mappingId": [
+          "INT1484"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lập trình với Python",
+        "credit": 3,
+        "mappingId": [
+          "INT13162"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mật mã học cơ sở",
+        "credit": 3,
+        "mappingId": [
+          "INT1344"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Nhập môn công nghệ phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1340"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "credit": 3,
+        "mappingId": [
+          "INT1341"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thực tập cơ sở",
+        "credit": 3,
+        "mappingId": [
+          "INT13147",
+          "TEL1492"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "An toàn mạng",
+        "credit": 3,
+        "mappingId": [
+          "INT1482"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "An toàn ứng dụng web và cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "INT14105"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "IoT và ứng dụng",
+        "credit": 3,
+        "mappingId": [
+          "INT14149"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lập trình web",
+        "credit": 3,
+        "mappingId": [
+          "INT1434"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Phân tích và thiết kế hệ thống thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT1342M"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần tự chọn",
+        "credit": 2,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "An toàn mạng nâng cao",
+        "credit": 3,
+        "mappingId": [
+          "INT1483"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiểm thử xâm nhập",
+        "credit": 3,
+        "mappingId": [
+          "INT14107"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật theo dõi, giám sát an toàn mạng",
+        "credit": 2,
+        "mappingId": [
+          "INT1429M"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phát triển ứng dụng cho các thiết bị di động",
+        "credit": 3,
+        "mappingId": [
+          "INT1449"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Quản lý an toàn thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT14106"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần tự chọn",
+        "credit": 2,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 6,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]
