@@ -1,0 +1,59 @@
+import D21_ATTT from "./ATTT.json";
+import D21_CNDPT_PTUDDPT from "./CNDPT_PTUDDPT.json";
+import D21_CNDPT_TKDHDPT from "./CNDPT_TKDHDPT.json";
+import D21_CNKTDDT_KTDTMT from "./CNKTDDT_KTDTMT.json";
+import D21_CNKTDDT_XLTHVTT from "./CNKTDDT_XLTHVTT.json";
+import D21_CNTCF from "./CNTCF.json";
+import D21_CNTT_CNPM from "./CNTT_CNPM.json";
+import D21_CNTT_HTTT from "./CNTT_HTTT.json";
+import D21_KT from "./KT.json";
+import D21_KTDTVT_HTI from "./KTDTVT_HTI.json";
+import D21_KTDTVT_MVDVI from "./KTDTVT_MVDVI.json";
+import D21_KTDTVT_TTVTVDD from "./KTDTVT_TTVTVDD.json";
+import D21_M_IM from "./M_IM.json";
+import D21_M_PTDLMS from "./M_PTDLMS.json";
+import D21_QTKD_QTDN from "./QTKD_QTDN.json";
+import D21_QTKD_TMDT from "./QTKD_TMDT.json";
+import D21_TMDT from "./TMDT.json";
+import D21_TTDPT from "./TTDPT.json";
+import {
+  ATTT,
+  CNDPT_PTUDDPT,
+  CNDPT_TKDHDPT,
+  CNKTDDT_KTDTMT,
+  CNKTDDT_XLTHVTT,
+  CNTCF,
+  CNTT_CNPM,
+  CNTT_HTTT,
+  KT,
+  KTDTVT_HTI,
+  KTDTVT_MVDVI,
+  KTDTVT_TTVTVDD,
+  M_IM,
+  M_PTDLMS,
+  QTKD_QTDN,
+  QTKD_TMDT,
+  TMDT,
+  TTDPT,
+} from "../masterConstrain";
+
+export const D21_MASTER_DATA = new Map<string, any>([
+  [ATTT, D21_ATTT],
+  [CNDPT_PTUDDPT, D21_CNDPT_PTUDDPT],
+  [CNDPT_TKDHDPT, D21_CNDPT_TKDHDPT],
+  [CNKTDDT_KTDTMT, D21_CNKTDDT_KTDTMT],
+  [CNKTDDT_XLTHVTT, D21_CNKTDDT_XLTHVTT],
+  [CNTCF, D21_CNTCF],
+  [CNTT_CNPM, D21_CNTT_CNPM],
+  [CNTT_HTTT, D21_CNTT_HTTT],
+  [KT, D21_KT],
+  [KTDTVT_HTI, D21_KTDTVT_HTI],
+  [KTDTVT_MVDVI, D21_KTDTVT_MVDVI],
+  [KTDTVT_TTVTVDD, D21_KTDTVT_TTVTVDD],
+  [M_IM, D21_M_IM],
+  [M_PTDLMS, D21_M_PTDLMS],
+  [QTKD_QTDN, D21_QTKD_QTDN],
+  [QTKD_TMDT, D21_QTKD_TMDT],
+  [TMDT, D21_TMDT],
+  [TTDPT, D21_TTDPT],
+]);

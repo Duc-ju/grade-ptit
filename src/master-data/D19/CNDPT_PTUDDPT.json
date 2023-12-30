@@ -1,0 +1,515 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở tạo hình",
+        "credit": 3,
+        "mappingId": [
+          "MUL1238"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nhập môn đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1320"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác - Lênin 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1111"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán cao cấp 1",
+        "credit": 2,
+        "mappingId": [
+          "BAS1219"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật nhiếp ảnh",
+        "credit": 2,
+        "mappingId": [
+          "MUL1313",
+          "MUL13122"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Mỹ thuật cơ bản",
+        "credit": 2,
+        "mappingId": [
+          "MUL13149"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế đồ họa",
+        "credit": 2,
+        "mappingId": [
+          "MUL13150"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh A11/A21",
+        "credit": 3,
+        "mappingId": [
+          "BAS1141",
+          "BAS1143"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tin học cơ sở 2",
+        "credit": 2,
+        "mappingId": [
+          "INT1155"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Toán cao cấp 2",
+        "credit": 2,
+        "mappingId": [
+          "BAS1220"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kỹ thuật quay phim",
+        "credit": 3,
+        "mappingId": [
+          "MUL1314"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ngôn ngữ lập trình Java",
+        "credit": 3,
+        "mappingId": [
+          "MUL13108",
+          "INT13108"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tiếng Anh A12/A22",
+        "credit": 4,
+        "mappingId": [
+          "BAS1142",
+          "BAS1144"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Toán rời rạc 1",
+        "credit": 3,
+        "mappingId": [
+          "INT1358"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xác suất thống kê",
+        "credit": 2,
+        "mappingId": [
+          "BAS1226"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ngôn ngữ lập trình C++",
+        "credit": 3,
+        "mappingId": [
+          "INT1339"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Thiết kế đồ họa 3D",
+        "credit": 3,
+        "mappingId": [
+          "MUL1454"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế hình động 1",
+        "credit": 3,
+        "mappingId": [
+          "MUL14134"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế tương tác đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL13151"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh A21/B11",
+        "credit": 3,
+        "mappingId": [
+          "BAS1143",
+          "BAS1145"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xử lý và truyền thông đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1307"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "TEL1342",
+          "INT1306"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dựng audio và video phi tuyến",
+        "credit": 3,
+        "mappingId": [
+          "MUL13124"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kịch bản đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1423"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Kiến trúc máy tính và hệ điều hành",
+        "credit": 2,
+        "mappingId": [
+          "INT1325"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kỹ xảo đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1415"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh A22/B12",
+        "credit": 4,
+        "mappingId": [
+          "BAS1144",
+          "BAS1146"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Thiết kế Web cơ bản",
+        "credit": 3,
+        "mappingId": [
+          "MUL1429",
+          "MUL13152"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tổ chức sản xuất sản phẩm đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1422"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Bản quyền số",
+        "credit": 2,
+        "mappingId": [
+          "MUL13148"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "TEL1343",
+          "INT1313"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật đồ họa",
+        "credit": 3,
+        "mappingId": [
+          "INT1328",
+          "INT13111"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lập trình âm thanh",
+        "credit": 2,
+        "mappingId": [
+          "MUL14126"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lập trình mạng với C++",
+        "credit": 3,
+        "mappingId": [
+          "INT13110"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Nhập môn công nghệ phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1340"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chuyên đề",
+        "credit": 1,
+        "mappingId": [
+          "CD"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lập trình Game cơ bản",
+        "credit": 3,
+        "mappingId": [
+          "MUL1446"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lập trình ứng dụng trên đầu cuối di động",
+        "credit": 3,
+        "mappingId": [
+          "MUL1448"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lập trình web",
+        "credit": 3,
+        "mappingId": [
+          "INT1434"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thị giác máy tính",
+        "credit": 3,
+        "mappingId": [
+          "ELE14104",
+          "ELE1422"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xử lý ảnh và video",
+        "credit": 3,
+        "mappingId": [
+          "MUL14125"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "An toàn thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT14165"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Khai phá dữ liệu đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL14130"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phát triển ứng dụng IoT",
+        "credit": 3,
+        "mappingId": [
+          "MUL14154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phát triển ứng dụng thực tại ảo",
+        "credit": 3,
+        "mappingId": [
+          "MUL14129"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thực hành chuyên sâu",
+        "credit": 4,
+        "mappingId": [
+          "MUL1482",
+          "MUL14116",
+          "TEL1417"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "FIA1428"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Bảo vệ khóa luận tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]

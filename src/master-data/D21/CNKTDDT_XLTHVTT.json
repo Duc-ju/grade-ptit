@@ -1,0 +1,500 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Đại số",
+        "credit": 3,
+        "mappingId": [
+          "BAS1201"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Giải tích 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1203"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Giải tích 2",
+        "credit": 3,
+        "mappingId": [
+          "BAS1204"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nhập môn kỹ thuật điện tử",
+        "credit": 2,
+        "mappingId": [
+          "ELE1386"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tin học cơ sở 2",
+        "credit": 2,
+        "mappingId": [
+          "INT1155"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vật lý 1 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1224"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xác suất thống kê",
+        "credit": 2,
+        "mappingId": [
+          "BAS1226"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu kiện điện tử",
+        "credit": 3,
+        "mappingId": [
+          "ELE1302",
+          "ELE13100"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Cơ sở đo lường điện tử",
+        "credit": 2,
+        "mappingId": [
+          "ELE1305"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán kỹ thuật",
+        "credit": 3,
+        "mappingId": [
+          "BAS1221"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vật lý 2 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1225"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Điện tử số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1309"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Điện tử tương tự",
+        "credit": 3,
+        "mappingId": [
+          "ELE1310"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lý thuyết mạch",
+        "credit": 3,
+        "mappingId": [
+          "ELE1318"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xử lý tín hiệu số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1330",
+          "ELE13101"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở điều khiển tự động",
+        "credit": 3,
+        "mappingId": [
+          "ELE1304"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiến trúc máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1323",
+          "INT13145",
+          "TEL1338"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lý thuyết thông tin",
+        "credit": 3,
+        "mappingId": [
+          "ELE1319"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lý thuyết trường điện từ và siêu cao tần",
+        "credit": 3,
+        "mappingId": [
+          "ELE1320"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Mạng máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1336"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "TEL1342",
+          "INT1306"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cơ sở mật mã học",
+        "credit": 2,
+        "mappingId": [
+          "ELE1406"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Điện tử công suất",
+        "credit": 3,
+        "mappingId": [
+          "ELE1308"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Đồ án thiết kế mạch điện tử",
+        "credit": 2,
+        "mappingId": [
+          "ELE1412"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kỹ thuật vi xử lý",
+        "credit": 3,
+        "mappingId": [
+          "ELE1317",
+          "INT1330"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thực hành cơ sở",
+        "credit": 3,
+        "mappingId": [
+          "OTC1301"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Truyền thông số",
+        "credit": 2,
+        "mappingId": [
+          "ELE1428"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "CAD/CAM",
+        "credit": 2,
+        "mappingId": [
+          "ELE1401"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Hệ thống nhúng",
+        "credit": 3,
+        "mappingId": [
+          "ELE1415"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mạng cảm biến",
+        "credit": 3,
+        "mappingId": [
+          "ELE14102"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế logic số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1426"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xử lý ảnh",
+        "credit": 3,
+        "mappingId": [
+          "INT1362",
+          "INT13146"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chuyên đề xử lý tín hiệu và truyền thông",
+        "credit": 3,
+        "mappingId": [
+          "ELE14103"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Đồ án thiết kế hệ thống nhúng",
+        "credit": 2,
+        "mappingId": [
+          "ELE1413"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Đồ án xử lý tín hiệu số",
+        "credit": 2,
+        "mappingId": [
+          "ELE1414"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết bị ngoại vi và kỹ thuật ghép nối",
+        "credit": 2,
+        "mappingId": [
+          "ELE1427"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thực hành chuyên sâu",
+        "credit": 2,
+        "mappingId": [
+          "MUL1482",
+          "MUL14116",
+          "TEL1417"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xử lý tín hiệu số thời gian thực",
+        "credit": 2,
+        "mappingId": [
+          "ELE1431"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 6,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]
