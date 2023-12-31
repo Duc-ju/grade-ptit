@@ -119,7 +119,22 @@ service cloud.firestore {
 }
 ```
 
+* Go to storage menu, click get started and set the Rules to (just for dev environment):
+
+```
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if true;
+    }
+  }
+}
+```
+
 * Also enable user and password authentication, storage service in your firebase project.
+
+* Install `Node.js 16.x`
 
 ### Installation
 
