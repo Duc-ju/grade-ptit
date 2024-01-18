@@ -23,3 +23,4 @@ export const QTKD_QTDN = "QTKD_QTDN";
 export const QTKD_TMDT = "QTKD_TMDT";
 export const TMDT = "TMDT";
 export const TTDPT = "TTDPT";
+export const CNTT_CLC = "CNTT_CLC";
