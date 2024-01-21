@@ -21,18 +21,18 @@
       },
       {
         "id": 3,
-        "name": "Tin học cơ sở 1",
-        "credit": 2,
+        "name": "Nhập môn tin học và lập trình",
+        "credit": 3,
         "mappingId": [
-          "INT1154"
+          "INT11117_CLC"
         ]
       },
       {
         "id": 4,
-        "name": "Triết học Mác - Lênin",
-        "credit": 3,
+        "name": "Tiếng Anh (Course 1_CLC)",
+        "credit": 8,
         "mappingId": [
-          "BAS1150"
+          "BAS1162_CLC"
         ]
       }
     ]
@@ -46,55 +46,31 @@
         "name": "Giải tích 2",
         "credit": 3,
         "mappingId": [
-          "BAS1204"
+          "BAS1204_CLC"
         ]
       },
       {
         "id": 2,
-        "name": "Kinh tế chính trị Mác - Lênin",
-        "credit": 2,
+        "name": "Vật lí 1 và thí nghiệm",
+        "credit": 4,
         "mappingId": [
-          "BAS1151"
+          "BAS1224_CLC"
         ]
       },
       {
         "id": 3,
-        "name": "Kỹ thuật số",
-        "credit": 2,
+        "name": "Ngôn ngữ lập trình C++",
+        "credit": 3,
         "mappingId": [
-          "ELE1433"
+          "INT1339_CLC"
         ]
       },
       {
         "id": 4,
-        "name": "Tiếng Anh (Course 1)",
-        "credit": 4,
+        "name": "Tiếng Anh (Course 2_CLC)",
+        "credit": 8,
         "mappingId": [
-          "BAS1157"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Tin học cơ sở 2",
-        "credit": 2,
-        "mappingId": [
-          "INT1155"
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Vật lý 1 và thí nghiệm",
-        "credit": 4,
-        "mappingId": [
-          "BAS1224"
-        ]
-      },
-      {
-        "id": 7,
-        "name": "Xác suất thống kê",
-        "credit": 2,
-        "mappingId": [
-          "BAS1226"
+          "BAS1163_CLC"
         ]
       }
     ]
@@ -102,6 +78,160 @@
   {
     "id": 3,
     "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Toán rời rạc 1",
+        "credit": 3,
+        "mappingId": [
+          "INT1358_CLC"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "INT1306_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tiếng Anh (Course 3_CLC)",
+        "credit": 8,
+        "mappingId": [
+          "BAS1164_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xác suất thống kê",
+        "credit": 3,
+        "mappingId": [
+          "BAS1269_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Triết học Mác-Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiến trúc máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT13145_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pháp luật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "BAS1221_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Điện tử số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1309_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán rời rạc 2",
+        "credit": 3,
+        "mappingId": [
+          "INT1359_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Lập trình Python",
+        "credit": 3,
+        "mappingId": [
+          "INT14119_CLC"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác- Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật vi xử lý",
+        "credit": 3,
+        "mappingId": [
+          "INT1330_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lập trình hướng đối tượng",
+        "credit": 3,
+        "mappingId": [
+          "INT1332_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "INT1313_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Hệ điều hành",
+        "credit": 3,
+        "mappingId": [
+          "INT1319_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Mạng máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1336_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
     "subjects": [
       {
         "id": 1,
@@ -113,221 +243,42 @@
       },
       {
         "id": 2,
-        "name": "Ngôn ngữ lập trình C++",
+        "name": "Nhập môn Công nghệ phần mềm",
         "credit": 3,
         "mappingId": [
-          "INT1339"
+          "INT1340_CLC"
         ]
       },
       {
         "id": 3,
-        "name": "Tiếng Anh (Course 2)",
-        "credit": 4,
-        "mappingId": [
-          "BAS1158"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Toán rời rạc 1",
-        "credit": 3,
-        "mappingId": [
-          "INT1358"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Vật lý 3 và thí nghiệm",
-        "credit": 4,
-        "mappingId": [
-          "BAS1227"
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Xử lý tín hiệu số",
-        "credit": 2,
-        "mappingId": [
-          "ELE1330",
-          "ELE13101"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Học kì 2 năm 2",
-    "subjects": [
-      {
-        "id": 1,
-        "name": "Cấu trúc dữ liệu và giải thuật",
-        "credit": 3,
-        "mappingId": [
-          "TEL1342",
-          "INT1306"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Kiến trúc máy tính",
-        "credit": 3,
-        "mappingId": [
-          "INT1323",
-          "INT13145",
-          "TEL1338"
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Lý thuyết thông tin",
-        "credit": 3,
-        "mappingId": [
-          "ELE1319"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Tiếng Anh (Course 3)",
-        "credit": 4,
-        "mappingId": [
-          "BAS1159"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Toán rời rạc 2",
-        "credit": 3,
-        "mappingId": [
-          "INT1359"
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Tư tưởng Hồ Chí Minh",
-        "credit": 2,
-        "mappingId": [
-          "BAS1122"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Học kì 1 năm 3",
-    "subjects": [
-      {
-        "id": 1,
-        "name": "Cơ sở dữ liệu",
-        "credit": 3,
-        "mappingId": [
-          "TEL1343",
-          "INT1313"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Hệ điều hành",
-        "credit": 3,
-        "mappingId": [
-          "INT1319",
-          "TEL1339"
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Lập trình hướng đối tượng",
-        "credit": 3,
-        "mappingId": [
-          "INT1332",
-          "TEL1448"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Lập trình với Python",
-        "credit": 3,
-        "mappingId": [
-          "INT13162"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Lịch sử Đảng Cộng sản Việt Nam",
-        "credit": 2,
-        "mappingId": [
-          "BAS1153"
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Mạng máy tính",
-        "credit": 3,
-        "mappingId": [
-          "INT1336"
-        ]
-      },
-      {
-        "id": 7,
-        "name": "Tiếng Anh (Course 3 Plus)",
-        "credit": 2,
-        "mappingId": [
-          "BAS1160"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Học kì 2 năm 3",
-    "subjects": [
-      {
-        "id": 1,
-        "name": "An toàn và bảo mật hệ thống thông tin",
-        "credit": 3,
-        "mappingId": [
-          "INT1303"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Cơ sở dữ liệu phân tán",
-        "credit": 3,
-        "mappingId": [
-          "INT1414",
-          "INT14148"
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Lập trình Web",
-        "credit": 3,
-        "mappingId": [
-          "INT1434"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Nhập môn công nghệ phần mềm",
-        "credit": 3,
-        "mappingId": [
-          "INT1340"
-        ]
-      },
-      {
-        "id": 5,
         "name": "Nhập môn trí tuệ nhân tạo",
         "credit": 3,
         "mappingId": [
-          "INT1341"
+          "INT1341_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cơ sở dữ liệu phân tán",
+        "credit": 3,
+        "mappingId": [
+          "INT1414_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lập trình web",
+        "credit": 3,
+        "mappingId": [
+          "INT1434_CLC"
         ]
       },
       {
         "id": 6,
-        "name": "Thực tập cơ sở",
+        "name": "Cơ sở an toàn thông tin",
         "credit": 3,
         "mappingId": [
-          "INT13147",
-          "TEL1492"
+          "INT1472_CLC"
         ]
       }
     ]
@@ -338,59 +289,50 @@
     "subjects": [
       {
         "id": 1,
-        "name": "IoT và ứng dụng",
+        "name": "Tư tưởng Hồ Chí Minh",
         "credit": 3,
         "mappingId": [
-          "INT14149"
+          "BAS1152"
         ]
       },
       {
         "id": 2,
-        "name": "Phát triển các hệ thống thông minh",
+        "name": "Phân tích và thiết kế hệ thống thông tin",
         "credit": 3,
         "mappingId": [
-          "INT14151"
+          "INT1342_CLC"
         ]
       },
       {
         "id": 3,
-        "name": "Phân tích và thiết kế hệ thống thông tin",
+        "name": "Phát triển ứng dụng cho các thiết bị di động",
         "credit": 3,
         "mappingId": [
-          "INT1342M"
+          "INT1449_CLC"
         ]
       },
       {
         "id": 4,
-        "name": "Phương pháp luận nghiên cứu khoa học",
-        "credit": 2,
+        "name": "Thực tập cơ sở",
+        "credit": 4,
         "mappingId": [
-          "SKD1108"
+          "INT13147_CLC"
         ]
       },
       {
         "id": 5,
         "name": "Quản lý dự án phần mềm",
-        "credit": 2,
+        "credit": 3,
         "mappingId": [
-          "INT1450"
+          "INT1450_CLC"
         ]
       },
       {
         "id": 6,
-        "name": "Xử lý ảnh",
+        "name": "Lập trình mạng",
         "credit": 3,
         "mappingId": [
-          "INT1362",
-          "INT13146"
-        ]
-      },
-      {
-        "id": 7,
-        "name": "Học phần tự chọn",
-        "credit": 3,
-        "mappingId": [
-          "HPTC"
+          "INT1433_CLC"
         ]
       }
     ]
@@ -401,10 +343,10 @@
     "subjects": [
       {
         "id": 1,
-        "name": "Chuyên đề Công nghệ phần mềm",
-        "credit": 1,
+        "name": "Lịch sử Đảng cộng sản Việt Nam",
+        "credit": 2,
         "mappingId": [
-          "INT1408"
+          "BAS1153"
         ]
       },
       {
@@ -412,7 +354,7 @@
         "name": "Đảm bảo chất lượng phần mềm",
         "credit": 3,
         "mappingId": [
-          "INT1416"
+          "INT1416_CLC"
         ]
       },
       {
@@ -420,15 +362,15 @@
         "name": "Kiến trúc và thiết kế phần mềm",
         "credit": 3,
         "mappingId": [
-          "INT1427"
+          "INT1427_CLC"
         ]
       },
       {
         "id": 4,
-        "name": "Phát triển phần mềm hướng dịch vụ",
+        "name": "Các hệ thống phân tán",
         "credit": 3,
         "mappingId": [
-          "INT1448"
+          "INT1405_CLC"
         ]
       },
       {
@@ -444,7 +386,7 @@
         "name": "Xây dựng các hệ thống nhúng",
         "credit": 3,
         "mappingId": [
-          "INT1461"
+          "INT1461_CLC"
         ]
       }
     ]

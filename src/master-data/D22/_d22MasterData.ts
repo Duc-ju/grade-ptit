@@ -5,6 +5,7 @@ import D22_CNDPT_TKDHDPT from "./CNDPT_TKDHDPT.json";
 import D22_CNKTDDT_KTDTMT from "./CNKTDDT_KTDTMT.json";
 import D22_CNKTDDT_XLTHVTT from "./CNKTDDT_XLTHVTT.json";
 import D22_CNTCF from "./CNTCF.json";
+import D22_CNTT_CLC from "./CNTT_CLC.json";
 import D22_CNTT_CNPM from "./CNTT_CNPM.json";
 import D22_CNTT_HTTT from "./CNTT_HTTT.json";
 import D22_KHMT from "./KHMT.json";
@@ -18,7 +19,6 @@ import D22_QTKD_QTDN from "./QTKD_QTDN.json";
 import D22_QTKD_TMDT from "./QTKD_TMDT.json";
 import D22_TMDT from "./TMDT.json";
 import D22_TTDPT from "./TTDPT.json";
-import D22_CNTT_CLC from "./CNTT_CLC.json";
 import {
   ATTT,
   BC,
@@ -51,6 +51,7 @@ export const D22_MASTER_DATA = new Map<string, any>([
   [CNKTDDT_KTDTMT, D22_CNKTDDT_KTDTMT],
   [CNKTDDT_XLTHVTT, D22_CNKTDDT_XLTHVTT],
   [CNTCF, D22_CNTCF],
+  [CNTT_CLC, D22_CNTT_CLC],
   [CNTT_CNPM, D22_CNTT_CNPM],
   [CNTT_HTTT, D22_CNTT_HTTT],
   [KHMT, D22_KHMT],
@@ -64,5 +65,4 @@ export const D22_MASTER_DATA = new Map<string, any>([
   [QTKD_TMDT, D22_QTKD_TMDT],
   [TMDT, D22_TMDT],
   [TTDPT, D22_TTDPT],
-  [CNTT_CLC, D22_CNTT_CLC],
 ]);
