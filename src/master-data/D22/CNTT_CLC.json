@@ -398,7 +398,7 @@
       {
         "id": 1,
         "name": "Thực tập",
-        "credit": 6,
+        "credit": 8,
         "mappingId": [
           "CDT1433",
           "ELE1436",
@@ -417,7 +417,7 @@
       {
         "id": 1,
         "name": "Tốt nghiệp",
-        "credit": 6,
+        "credit": 8,
         "mappingId": [
           "KLTN"
         ]
