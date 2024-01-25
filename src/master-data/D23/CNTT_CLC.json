@@ -1,0 +1,427 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Đại số",
+        "credit": 3,
+        "mappingId": [
+          "BAS1201_CLC"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Giải tích 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1203_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nhập môn tin học và lập trình",
+        "credit": 3,
+        "mappingId": [
+          "INT11117_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 1_CLC)",
+        "credit": 8,
+        "mappingId": [
+          "BAS1162_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Giải tích 2",
+        "credit": 3,
+        "mappingId": [
+          "BAS1204_CLC"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vật lí 1 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1224_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Ngôn ngữ lập trình C++",
+        "credit": 3,
+        "mappingId": [
+          "INT1339_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 2_CLC)",
+        "credit": 8,
+        "mappingId": [
+          "BAS1163_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Toán rời rạc 1",
+        "credit": 3,
+        "mappingId": [
+          "INT1358_CLC"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "INT1306_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tiếng Anh (Course 3_CLC)",
+        "credit": 8,
+        "mappingId": [
+          "BAS1164_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xác suất thống kê",
+        "credit": 3,
+        "mappingId": [
+          "BAS1269_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Triết học Mác-Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiến trúc máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT13145_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pháp luật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "BAS1221_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Điện tử số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1309_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán rời rạc 2",
+        "credit": 3,
+        "mappingId": [
+          "INT1359_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Lập trình Python",
+        "credit": 3,
+        "mappingId": [
+          "INT14119_CLC"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác- Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật vi xử lý",
+        "credit": 3,
+        "mappingId": [
+          "INT1330_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lập trình hướng đối tượng",
+        "credit": 3,
+        "mappingId": [
+          "INT1332_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "INT1313_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Hệ điều hành",
+        "credit": 3,
+        "mappingId": [
+          "INT1319_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Mạng máy tính",
+        "credit": 3,
+        "mappingId": [
+          "INT1336_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nhập môn Công nghệ phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1340_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "credit": 3,
+        "mappingId": [
+          "INT1341_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cơ sở dữ liệu phân tán",
+        "credit": 3,
+        "mappingId": [
+          "INT1414_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Lập trình web",
+        "credit": 3,
+        "mappingId": [
+          "INT1434_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Cơ sở an toàn thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT1472_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 3,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Phân tích và thiết kế hệ thống thông tin",
+        "credit": 3,
+        "mappingId": [
+          "INT1342_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phát triển ứng dụng cho các thiết bị di động",
+        "credit": 3,
+        "mappingId": [
+          "INT1449_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thực tập cơ sở",
+        "credit": 4,
+        "mappingId": [
+          "INT13147_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Quản lý dự án phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1450_CLC"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Lập trình mạng",
+        "credit": 3,
+        "mappingId": [
+          "INT1433_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Lịch sử Đảng cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Đảm bảo chất lượng phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1416_CLC"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kiến trúc và thiết kế phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "INT1427_CLC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Các hệ thống phân tán",
+        "credit": 3,
+        "mappingId": [
+          "INT1405_CLC"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Phát triển ứng dụng cho các thiết bị di động",
+        "credit": 3,
+        "mappingId": [
+          "INT1449"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xây dựng các hệ thống nhúng",
+        "credit": 3,
+        "mappingId": [
+          "INT1461_CLC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 8,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 8,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]

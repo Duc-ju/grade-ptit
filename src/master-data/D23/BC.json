@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở lý luận báo chí truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "MUL12159"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cơ sở văn hóa Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "MUL1240"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mỹ thuật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "MUL13167"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Logic đại cương",
+        "credit": 2,
+        "mappingId": [
+          "LDC"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tâm lý học báo chí",
+        "credit": 2,
+        "mappingId": [
+          "MUL12160"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Việt thực hành",
+        "credit": 2,
+        "mappingId": [
+          "MUL12158"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tin học cơ sở 3",
+        "credit": 2,
+        "mappingId": [
+          "INT1156"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Văn hóa và truyền thông đại chúng",
+        "credit": 2,
+        "mappingId": [
+          "VHVTTDC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Các loại hình báo chí",
+        "credit": 3,
+        "mappingId": [
+          "CLHBC"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nhập môn công nghệ báo chí số",
+        "credit": 2
+      },
+      {
+        "id": 4,
+        "name": "Nhập môn thiết kế và sự sáng tạo trong báo chí",
+        "credit": 2
+      },
+      {
+        "id": 5,
+        "name": "Nhiếp ảnh báo chí",
+        "credit": 3
+      },
+      {
+        "id": 6,
+        "name": "Pháp luật, Đạo đức và Lao động báo chí",
+        "credit": 3
+      },
+      {
+        "id": 7,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kịch bản cho tác phẩm báo chí số",
+        "credit": 2
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật Quay và dựng video",
+        "credit": 4
+      },
+      {
+        "id": 3,
+        "name": "Ngôn ngữ báo chí và sáng tạo tác phẩm báo chí",
+        "credit": 3
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế đồ họa báo chí",
+        "credit": 3
+      },
+      {
+        "id": 6,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Báo chí dữ liệu",
+        "credit": 2,
+        "mappingId": [
+          "MUL14107"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Báo chí và phương tiện truyền thông xã hội",
+        "credit": 2
+      },
+      {
+        "id": 3,
+        "name": "Công cụ xử lý hiệu ứng trong báo chí số",
+        "credit": 3
+      },
+      {
+        "id": 4,
+        "name": "Kinh tế báo chí",
+        "credit": 2
+      },
+      {
+        "id": 5,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Nghệ thuật chữ và nguyên tắc ứng dụng trên các nền tảng phân phối",
+        "credit": 3
+      },
+      {
+        "id": 7,
+        "name": "Thương hiệu và xây dựng thương hiệu trong báo chí",
+        "credit": 2
+      },
+      {
+        "id": 8,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Internet và công nghệ web",
+        "credit": 3
+      },
+      {
+        "id": 2,
+        "name": "Thiết kế hình họa trong báo chí số",
+        "credit": 3
+      },
+      {
+        "id": 3,
+        "name": "Thu thập và xử lý dữ liệu báo chí số",
+        "credit": 3
+      },
+      {
+        "id": 4,
+        "name": "Viết chuyên nghiệp",
+        "credit": 3
+      },
+      {
+        "id": 5,
+        "name": "Tự chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "TC1"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tự chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "TC2"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tự chọn 3",
+        "credit": 2,
+        "mappingId": [
+          "TC3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Báo chí đương đại",
+        "credit": 2
+      },
+      {
+        "id": 2,
+        "name": "Báo chí và dư luận xã hội",
+        "credit": 2
+      },
+      {
+        "id": 3,
+        "name": "Công nghệ AI trong phân tích dữ liệu báo chí số",
+        "credit": 3
+      },
+      {
+        "id": 4,
+        "name": "Dẫn chương trình",
+        "credit": 2
+      },
+      {
+        "id": 5,
+        "name": "Vận hành tòa soạn báo chí số",
+        "credit": 2
+      },
+      {
+        "id": 6,
+        "name": "Tự chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "TC1"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tự chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "TC2"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tự chọn 3",
+        "credit": 2,
+        "mappingId": [
+          "TC3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": []
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 4,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]
