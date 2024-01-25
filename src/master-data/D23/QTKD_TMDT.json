@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Pháp luật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "BSA1221"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tâm lý quản lý",
+        "credit": 2,
+        "mappingId": [
+          "BSA1236"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Toán cao cấp 1",
+        "credit": 2,
+        "mappingId": [
+          "BAS1219"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế vi mô 1",
+        "credit": 3,
+        "mappingId": [
+          "BSA1310"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lý thuyết xác suất và thống kê",
+        "credit": 3,
+        "mappingId": [
+          "BAS1210"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tin học cơ sở 3",
+        "credit": 2,
+        "mappingId": [
+          "INT1156"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Toán cao cấp 2",
+        "credit": 2,
+        "mappingId": [
+          "BAS1220"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế vĩ mô 1",
+        "credit": 3,
+        "mappingId": [
+          "BSA1311"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Marketing căn bản",
+        "credit": 3,
+        "mappingId": [
+          "MAR1322"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quản trị học",
+        "credit": 3,
+        "mappingId": [
+          "BSA1328"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Kinh tế vĩ mô 1",
+        "credit": 3,
+        "mappingId": [
+          "BSA1311"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Giao tiếp trong kinh doanh",
+        "credit": 2,
+        "mappingId": [
+          "BSA1448"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế lượng",
+        "credit": 3,
+        "mappingId": [
+          "BSA1309"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Nguyên lý kế toán",
+        "credit": 3,
+        "mappingId": [
+          "FIA1321"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tài chính tiền tệ",
+        "credit": 3,
+        "mappingId": [
+          "FIA1326"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thương mại điện tử căn bản",
+        "credit": 3,
+        "mappingId": [
+          "BSA1365"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Hệ thống thông tin quản lý",
+        "credit": 2,
+        "mappingId": [
+          "BSA1307"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Logistics căn bản",
+        "credit": 2,
+        "mappingId": [
+          "BSA1351"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Quản trị chiến lược",
+        "credit": 3,
+        "mappingId": [
+          "BSA1325"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quản trị sản xuất",
+        "credit": 3,
+        "mappingId": [
+          "BSA1333"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thống kê doanh nghiệp",
+        "credit": 3,
+        "mappingId": [
+          "BSA1338"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kế toán quản trị",
+        "credit": 3,
+        "mappingId": [
+          "FIA1332",
+          "FIA1334"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Luật kinh doanh",
+        "credit": 2,
+        "mappingId": [
+          "BSA1314"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Phân tích hoạt động kinh doanh",
+        "credit": 2,
+        "mappingId": [
+          "BSA1320"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quản trị bán hàng và phân phối sản phẩm",
+        "credit": 2,
+        "mappingId": [
+          "BSA1354"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Quản trị nhân lực",
+        "credit": 3,
+        "mappingId": [
+          "BSA1331"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Quản trị tài chính doanh nghiệp",
+        "credit": 3,
+        "mappingId": [
+          "FIA1324"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần tự chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "HPTC1"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Học phần tự chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "HPTC2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Bán lẻ trực tuyến",
+        "credit": 2,
+        "mappingId": [
+          "BSA1457"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chuyên đề thương mại điện tử",
+        "credit": 2,
+        "mappingId": [
+          "BSA1403"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pháp luật thương mại điện tử và an toàn thông tin",
+        "credit": 2,
+        "mappingId": [
+          "PLTMDTVATTT"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Quản trị doanh nghiệp",
+        "credit": 2,
+        "mappingId": [
+          "BSA1427"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thanh toán điện tử",
+        "credit": 2,
+        "mappingId": [
+          "BSA1437"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xây dựng website thương mại điện tử",
+        "credit": 2,
+        "mappingId": [
+          "BSA1408"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Học phần tự chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "HPTC1"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Học phần tự chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "HPTC2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": []
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 4,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]

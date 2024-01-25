@@ -1,0 +1,343 @@
+[
+    {
+      "id": 1,
+      "name": "Học kì 1 năm 1",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Đại số",
+          "credit": 3,
+          "mappingId": [
+            "BAS1201"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Giải tích 1",
+          "credit": 3,
+          "mappingId": [
+            "BAS1203"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Nhập môn lập trình với Python",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1301"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Pháp luật đại cương",
+          "credit": 2,
+          "mappingId": [
+            "BAS1221"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Học kì 2 năm 1",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Giải tích 2",
+          "credit": 3,
+          "mappingId": [
+            "BAS1204"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Lập trình với ngôn ngữ Script",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1302"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Xác suất thống kê",
+          "credit": 2,
+          "mappingId": [
+            "BAS1226"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Tiếng Anh (Course 1)",
+          "credit": 4,
+          "mappingId": [
+            "BAS1157"
+          ]
+        },
+        {
+            "id": 5,
+            "name": "Cơ sở dữ liệu",
+            "credit": 3,
+            "mappingId": [
+              "INT1313"
+            ]
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Học kì 1 năm 2",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Toán rời rạc 1",
+          "credit": 3,
+          "mappingId": [
+            "INT1358"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Lập trình hướng đối tượng",
+          "credit": 3,
+          "mappingId": [
+            "INT1332"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Tiếng Anh (Course 2)",
+          "credit": 4,
+          "mappingId": [
+            "BAS1158"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Triết học Mác-Lênin",
+          "credit": 3,
+          "mappingId": [
+            "BAS1150"
+          ]
+        },
+        {
+            "id": 4,
+            "name": "Lập trình web",
+            "credit": 3,
+            "mappingId": [
+              "RIPT1306"
+            ]
+          }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Học kì 2 năm 2",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Thực hành lập trình web",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1307"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Học phần doanh nghiệp 1",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1308"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Quản lý dự án phần mềm",
+          "credit": 2,
+          "mappingId": [
+            "INT1450"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "An toàn và bảo mật hệ thống thông tin",
+          "credit": 3,
+          "mappingId": [
+            "INT1303"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Kinh tế chính trị Mác- Lênin",
+          "credit": 2,
+          "mappingId": [
+            "BAS1151"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Tiếng Anh (Course 3)",
+          "credit": 4,
+          "mappingId": [
+            "BAS1159"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Học kì 1 năm 3",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Cấu trúc dữ liệu và giải thuật",
+          "credit": 3,
+          "mappingId": [
+            "INT1306"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Nhập môn công nghệ nền tảng(Platform Technologies)",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1304"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Nhập môn tích hợp hệ thống(System integration)",
+          "credit": 2,
+          "mappingId": [
+            "RIPT1305"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Phát triển ứng dụng cho các thiết bị di động",
+          "credit": 3,
+          "mappingId": [
+            "INT1449"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Chủ nghĩa xã hội khoa học",
+          "credit": 2,
+          "mappingId": [
+            "BAS1152"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Tiếng Anh (Course 3 Plus)",
+          "credit": 2,
+          "mappingId": [
+            "BAS1160"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Học kì 2 năm 3",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Học phần doanh nghiệp 2",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1309"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Mạng máy tính theo CCNA",
+          "credit": 4,
+          "mappingId": [
+            "RIPT1303"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Tư tưởng Hồ Chí Minh",
+          "credit": 2,
+          "mappingId": [
+            "BAS1122"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Học kì 1 năm 4(Hệ thống thông tin)",
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Quản trị cơ sở dữ liệu nâng cao",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1414"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Điện toán đám mây",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1415"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Nhập môn DevOps",
+          "credit": 3,
+          "mappingId": [
+            "RIPT1416"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Lịch sử Đảng Cộng sản Việt Nam",
+          "credit": 2,
+          "mappingId": [
+            "BAS1153"
+          ]
+        }
+    ]
+        },
+    
+        {
+            "id": 7,
+            "name": "Học kì 1 năm 4(Công nghệ phần mềm)",
+            "subjects": [
+              {
+                "id": 1,
+                "name": "Thiết kế giao diện người dùng" ,
+                "credit": 3,
+                "mappingId": [
+                  "RIPT1410"
+                ]
+              },   
+              {
+                "id": 2,
+                "name": "Nhập môn công nghệ phần mềm" ,
+                "credit": 3,
+                "mappingId": [
+                  "INT1340"
+                ]
+              },   
+              {
+                "id": 3,
+                "name": "Kiến trúc và thiết kế phần mềm" ,
+                "credit": 3,
+                "mappingId": [
+                  "INT1427"
+                ]
+              }
+        
+      ]
+    }
+]
+
+    
+  

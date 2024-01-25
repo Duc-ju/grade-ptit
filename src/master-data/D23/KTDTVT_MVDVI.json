@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Đại số",
+        "credit": 3,
+        "mappingId": [
+          "BAS1201"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Giải tích 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1203"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Giải tích 2",
+        "credit": 3,
+        "mappingId": [
+          "BAS1204"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tin học cơ sở 2",
+        "credit": 2,
+        "mappingId": [
+          "INT1155"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Vật lý 1 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1224"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xác suất thống kê",
+        "credit": 2,
+        "mappingId": [
+          "BAS1226"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Linh kiện và mạch điện tử",
+        "credit": 3,
+        "mappingId": [
+          "ELE13105"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lý thuyết mạch",
+        "credit": 3,
+        "mappingId": [
+          "ELE1318"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tín hiệu và Hệ thống",
+        "credit": 3,
+        "mappingId": [
+          "TEL1368"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vật lý 2 và thí nghiệm",
+        "credit": 4,
+        "mappingId": [
+          "BAS1225"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Điện tử số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1309"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật siêu cao tần",
+        "credit": 3,
+        "mappingId": [
+          "TEL1345"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lý thuyết truyền tin",
+        "credit": 3,
+        "mappingId": [
+          "TEL1344"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xử lý tín hiệu số",
+        "credit": 3,
+        "mappingId": [
+          "ELE1330",
+          "ELE13101"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kiến trúc máy tính",
+        "credit": 2,
+        "mappingId": [
+          "INT1323",
+          "INT13145",
+          "TEL1338"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật lập trình",
+        "credit": 3,
+        "mappingId": [
+          "TEL1340"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật Vi xử lý",
+        "credit": 3,
+        "mappingId": [
+          "ELE1317",
+          "INT1330"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Toán rời rạc",
+        "credit": 3,
+        "mappingId": [
+          "TEL1337"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Truyền sóng và Anten",
+        "credit": 3,
+        "mappingId": [
+          "TEL1421"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "TEL1342",
+          "INT1306"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Công nghệ phần mềm",
+        "credit": 3,
+        "mappingId": [
+          "TEL1341",
+          "TEL1393"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ thuật mạng truyền thông",
+        "credit": 3,
+        "mappingId": [
+          "TEL1405"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Kỹ thuật thông tin quang",
+        "credit": 3,
+        "mappingId": [
+          "TEL1406"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kỹ thuật thông tin vô tuyến",
+        "credit": 3,
+        "mappingId": [
+          "TEL1407"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Hệ điều hành",
+        "credit": 2,
+        "mappingId": [
+          "INT1319",
+          "TEL1339"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Mô phỏng hệ thống truyền thông",
+        "credit": 2,
+        "mappingId": [
+          "TEL1412"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "An toàn mạng thông tin",
+        "credit": 3,
+        "mappingId": [
+          "TEL1401"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cơ sở dữ liệu",
+        "credit": 3,
+        "mappingId": [
+          "TEL1343",
+          "INT1313"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Internet và các giao thức",
+        "credit": 3,
+        "mappingId": [
+          "TEL1469"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Mạng truyền thông quang",
+        "credit": 3,
+        "mappingId": [
+          "TEL1346"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thông tin di động",
+        "credit": 3,
+        "mappingId": [
+          "TEL1415"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chuyên đề mạng và dịch vụ Internet",
+        "credit": 1,
+        "mappingId": [
+          "CDMVDVI"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Điện toán đám mây",
+        "credit": 2,
+        "mappingId": [
+          "TEL1447"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lập trình hướng đối tượng",
+        "credit": 3,
+        "mappingId": [
+          "INT1332",
+          "TEL1448"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tự chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "TC1"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tự chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "TC2"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tự chọn 3",
+        "credit": 3,
+        "mappingId": [
+          "TC3"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tự chọn 4",
+        "credit": 3,
+        "mappingId": [
+          "TC4"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tự chọn 5",
+        "credit": 3,
+        "mappingId": [
+          "TC5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 6,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]

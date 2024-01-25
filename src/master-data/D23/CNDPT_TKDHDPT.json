@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở tạo hình",
+        "credit": 3,
+        "mappingId": [
+          "MUL1238"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nhập môn đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1320"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác - Lênin 1",
+        "credit": 3,
+        "mappingId": [
+          "BAS1111"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toán cao cấp 1",
+        "credit": 2,
+        "mappingId": [
+          "BAS1219"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật nhiếp ảnh",
+        "credit": 2,
+        "mappingId": [
+          "MUL1313",
+          "MUL13122"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mỹ thuật cơ bản",
+        "credit": 3,
+        "mappingId": [
+          "MUL13149"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế đồ họa",
+        "credit": 3,
+        "mappingId": [
+          "MUL13150"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tin học cơ sở 2",
+        "credit": 2,
+        "mappingId": [
+          "INT1155"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Toán cao cấp 2",
+        "credit": 2,
+        "mappingId": [
+          "BAS1220"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kỹ thuật quay phim",
+        "credit": 3,
+        "mappingId": [
+          "MUL1314"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Ngôn ngữ lập trình C++",
+        "credit": 3,
+        "mappingId": [
+          "INT1339"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế hình động 1",
+        "credit": 3,
+        "mappingId": [
+          "MUL14134"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Toán rời rạc 1",
+        "credit": 3,
+        "mappingId": [
+          "INT1358"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xác suất thống kê",
+        "credit": 2,
+        "mappingId": [
+          "BAS1226"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "credit": 3,
+        "mappingId": [
+          "TEL1342",
+          "INT1306"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kiến trúc máy tính và hệ điều hành",
+        "credit": 2,
+        "mappingId": [
+          "INT1325"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Thiết kế đồ họa 3D",
+        "credit": 3,
+        "mappingId": [
+          "MUL1454"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế tương tác đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL13151"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Xử lý và truyền thông đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1307"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Dựng audio và video phi tuyến",
+        "credit": 3,
+        "mappingId": [
+          "MUL13124"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kịch bản đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1423"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kỹ xảo đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1415"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế Web cơ bản",
+        "credit": 3,
+        "mappingId": [
+          "MUL1429",
+          "MUL13152"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tổ chức sản xuất sản phẩm đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL1422"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Cơ sở tạo hình nâng cao",
+        "credit": 3,
+        "mappingId": [
+          "MUL14132"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Luật xa gần",
+        "credit": 3,
+        "mappingId": [
+          "MUL14131"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nghệ thuật đồ họa chữ (Typography)",
+        "credit": 3,
+        "mappingId": [
+          "MUL14136"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế hình động 2",
+        "credit": 3,
+        "mappingId": [
+          "MUL14140"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế sản phẩm đa phương tiện",
+        "credit": 3,
+        "mappingId": [
+          "MUL14135"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kịch bản phân cảnh",
+        "credit": 3,
+        "mappingId": [
+          "MUL14144"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Thiết kế ấn phẩm điện tử 1",
+        "credit": 3,
+        "mappingId": [
+          "MUL14138"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Thiết kế game",
+        "credit": 3,
+        "mappingId": [
+          "MUL14127"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Thiết kế hình động 3D",
+        "credit": 3,
+        "mappingId": [
+          "MUL14145"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thiết kế ứng dụng trên đầu cuối di động",
+        "credit": 3,
+        "mappingId": [
+          "MUL14153"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Bản quyền số",
+        "credit": 2,
+        "mappingId": [
+          "MUL13148"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chuyên đề Thiết kế đa phương tiện",
+        "credit": 1,
+        "mappingId": [
+          "MUL1465"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Đồ án thiết kế sản phẩm đa phương tiện",
+        "credit": 2,
+        "mappingId": [
+          "MUL14141"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phương pháp luận nghiên cứu khoa học",
+        "credit": 2,
+        "mappingId": [
+          "SKD1108"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Thực hành chuyên sâu",
+        "credit": 4,
+        "mappingId": [
+          "MUL1482",
+          "MUL14116",
+          "TEL1417"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần tự chọn",
+        "credit": 3,
+        "mappingId": [
+          "HPTC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 6,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]

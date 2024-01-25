@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "name": "Học kì 1 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế vi mô 1",
+        "credit": 3,
+        "mappingId": [
+          "BSA1310"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pháp luật đại cương",
+        "credit": 2,
+        "mappingId": [
+          "BSA1221"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tin học cơ sở 1",
+        "credit": 2,
+        "mappingId": [
+          "INT1154"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Toán cao cấp 1",
+        "credit": 2,
+        "mappingId": [
+          "BAS1219"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Triết học Mác - Lênin",
+        "credit": 3,
+        "mappingId": [
+          "BAS1150"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Học kì 2 năm 1",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "credit": 2,
+        "mappingId": [
+          "BAS1151"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kinh tế vĩ mô 1",
+        "credit": 3,
+        "mappingId": [
+          "BSA1311"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Luật kinh doanh",
+        "credit": 2,
+        "mappingId": [
+          "BSA1314"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lý thuyết xác suất và thống kê",
+        "credit": 3,
+        "mappingId": [
+          "BAS1210"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 1)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1157"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tin học cơ sở 3",
+        "credit": 2,
+        "mappingId": [
+          "INT1156"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Toán cao cấp 2",
+        "credit": 2,
+        "mappingId": [
+          "BAS1220"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Học kì 1 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "credit": 2,
+        "mappingId": [
+          "BAS1152"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nguyên lý kế toán",
+        "credit": 3,
+        "mappingId": [
+          "FIA1321"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nguyên lý thống kê kinh tế",
+        "credit": 3,
+        "mappingId": [
+          "BSA1348"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tài chính tiền tệ",
+        "credit": 3,
+        "mappingId": [
+          "FIA1326"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 2)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1158"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Xuất nhập khẩu và thanh toán quốc tế",
+        "credit": 3,
+        "mappingId": [
+          "XNKVTTQT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Học kì 2 năm 2",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kế toán quản trị 1",
+        "credit": 3,
+        "mappingId": [
+          "FIA1310"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kế toán tài chính 1",
+        "credit": 4,
+        "mappingId": [
+          "FIA1312"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hệ thống thông tin kế toán",
+        "credit": 2,
+        "mappingId": [
+          "FIA1404"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quản trị tài chính doanh nghiệp",
+        "credit": 3,
+        "mappingId": [
+          "FIA1324"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tiếng Anh (Course 3)",
+        "credit": 4,
+        "mappingId": [
+          "BAS1159"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "credit": 2,
+        "mappingId": [
+          "BAS1122"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Học kì 1 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Kế toán quản trị 2",
+        "credit": 3,
+        "mappingId": [
+          "FIA1441M"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kế toán tài chính 2",
+        "credit": 4,
+        "mappingId": [
+          "FIA1313"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "credit": 2,
+        "mappingId": [
+          "BAS1153"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tiếng Anh (Course 3 Plus)",
+        "credit": 2,
+        "mappingId": [
+          "BAS1160"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Học phần lựa chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "HPLC1"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần lựa chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "HPLC2"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần lựa chọn 3",
+        "credit": 2,
+        "mappingId": [
+          "HPLC3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Học kì 2 năm 3",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "CFA",
+        "credit": 3,
+        "mappingId": [
+          "FIA1402"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Công nghệ và dữ liệu kế toán",
+        "credit": 3,
+        "mappingId": [
+          "CNVDLKT"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kế toán ngân hàng thương mại",
+        "credit": 2,
+        "mappingId": [
+          "FIA1408"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Kiểm toán căn bản",
+        "credit": 3,
+        "mappingId": [
+          "FIA1315"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Phân tích tài chính doanh nghiệp",
+        "credit": 3,
+        "mappingId": [
+          "FIA1468"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Thuế và kế toán thuế",
+        "credit": 4,
+        "mappingId": [
+          "FIA1420"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Học kì 1 năm 4",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "ACCA",
+        "credit": 3,
+        "mappingId": [
+          "FIA1401"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Đầu tư tài chính",
+        "credit": 3,
+        "mappingId": [
+          "FIA1465"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Kế toán hành chính sự nghiệp",
+        "credit": 2,
+        "mappingId": [
+          "KTHCSN"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Kế toán máy",
+        "credit": 2,
+        "mappingId": [
+          "FIA1409"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kiểm toán tài chính",
+        "credit": 3,
+        "mappingId": [
+          "FIA1416"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Học phần lựa chọn 1",
+        "credit": 2,
+        "mappingId": [
+          "HPLC1"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Học phần lựa chọn 2",
+        "credit": 2,
+        "mappingId": [
+          "HPLC2"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Học phần lựa chọn 3",
+        "credit": 2,
+        "mappingId": [
+          "HPLC3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Học kì 2 năm 4",
+    "subjects": []
+  },
+  {
+    "id": 9,
+    "name": "Kì thực tập",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Thực tập",
+        "credit": 4,
+        "mappingId": [
+          "CDT1433",
+          "ELE1436",
+          "TEL1425",
+          "INT1477",
+          "EPT1415",
+          "BSA1443"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Khóa luận tốt nghiệp",
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Tốt nghiệp",
+        "credit": 6,
+        "mappingId": [
+          "KLTN"
+        ]
+      }
+    ]
+  }
+]
