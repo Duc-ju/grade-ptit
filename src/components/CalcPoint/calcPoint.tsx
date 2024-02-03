@@ -22,7 +22,7 @@ function CalcPoint() {
   const [selectedStruct, setSelectedStruct] = useState(DEFAULT_SELECTED_STRUCT);
 
   useEffect(() => {
-    document.title = "Grade PTIT | Tính điểm tổng kết";
+    document.title = "Grade PTIT | Công cụ tính điểm tổng kết";
   }, []);
 
   return (
@@ -60,8 +60,9 @@ function CalcPoint() {
         </div>
         <div className={classes.aboutContainer}>
           <h3>
-            Xin chào các bạn sinh viên PTIT. Dưới đây là phần giới thiệu chức
-            năng Tính điểm tổng kết
+            Xin chào các bạn sinh viên. Dưới đây là phần giới thiệu chức năng
+            Tính điểm tổng kết (GPA) của môn học, điểm sẽ được quy đổi ra hệ 4,
+            và xếp loại điểm.
           </h3>
           <ul className={classes.about}>
             <li>
@@ -120,7 +121,7 @@ function CalcPoint() {
               <span>
                 <FcNext />
                 Ngay sau khi các bạn nhập điểm, hệ thống sẽ tính toán lại điểm
-                tổng kết.
+                tổng kết (GPA) của môn học.
               </span>
             </li>
           </ul>
@@ -139,7 +140,9 @@ function CalcPoint() {
             "điểm GPA",
             "điểm trung bình",
             "điểm tích luỹ",
+            "tính điểm hệ 4",
             "công cụ tính điểm",
+            "tính điểm học phần",
             "sinh viên",
             "sinh viên ptit",
             "kết quả học tập",
