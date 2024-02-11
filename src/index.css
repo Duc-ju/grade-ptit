@@ -27,6 +27,7 @@ body {
     --header-height: 64px;
     --footer-height: 76px;
     --grey-color: #dddddd;
+    --fit-full-screen: calc(100vh - var(--header-height) - var(--footer-height));
 }
 
 code {

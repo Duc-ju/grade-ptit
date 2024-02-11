@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--fit-full-screen);
+}
+
+.contentContainer {
+    position: relative;
+}
+
+.clipboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid var(--background-color-secondary);
+    cursor: pointer;
+}
+
+.clipboard svg {
+    fill: var(--primary-color);
+    font-size: 20px;
+}
+
+.clipboard:hover svg {
+    transform: translateY(-2px);
+}

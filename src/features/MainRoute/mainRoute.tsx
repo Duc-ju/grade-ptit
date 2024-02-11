@@ -16,6 +16,7 @@ import CalcPoint from "../../components/CalcPoint";
 import EditSemesterTool from "../../admin/EditSemesterTool";
 import NotFound from "../../components/NotFound";
 import useScrollTop from "../../hooks/useScrollTop";
+import ExcelSemesterConvertTool from "../../admin/ExcelSemesterConvertTool";
 
 function MainRoute() {
   useScrollTop();
@@ -44,10 +45,16 @@ function MainRoute() {
           <Route path={"/find-file"} element={<FindFile />} />
           <Route path={"/calc-point"} element={<CalcPoint />} />
           {window.location.hostname === "localhost" && (
-            <Route
-              path={"/admin/edit-semester"}
-              element={<EditSemesterTool />}
-            />
+            <>
+              <Route
+                path={"/admin/edit-semester"}
+                element={<EditSemesterTool />}
+              />
+              <Route
+                path={"/admin/excel-semester-convert-tool"}
+                element={<ExcelSemesterConvertTool />}
+              />
+            </>
           )}
           <Route path={"*"} element={<NotFound />} />
         </Routes>

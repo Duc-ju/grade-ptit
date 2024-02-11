@@ -1,0 +1,79 @@
+.root {
+    height: var(--modal-height);
+    overflow-y: auto;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 16px 0;
+}
+
+.subjectList {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 72px;
+}
+
+.subject {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.root::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.root::-webkit-scrollbar {
+    visibility: hidden;
+    width: 8px;
+}
+
+.root:hover::-webkit-scrollbar {
+    visibility: visible;
+    width: 8px;
+    background-color: #f5f5f5;
+}
+
+.root::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.root:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    border-radius: 10px;
+    background-color: var(--background-color-secondary);
+}
+
+.buttonContainer {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 8px 32px;
+    box-shadow: var(--shadow-primary);
+    border-top: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
+    border-left: 0;
+    width: 100%;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+}
+
+.convertProcessButton {
+    padding: 8px 16px;
+}
+
+.convertProcessButton span {
+    font-size: 16px;
+}
