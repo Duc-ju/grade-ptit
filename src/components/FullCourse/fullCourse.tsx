@@ -351,6 +351,8 @@ function FullCourse() {
         rows = rows.filter(
           (row) =>
             row.length >= 8 &&
+            row[EXCEL_MARK_POSITION] !== null &&
+            row[EXCEL_MARK_POSITION] !== undefined &&
             Number.isInteger(row[EXCEL_INDEX_POSITION]) &&
             !Number.isNaN(row[EXCEL_MARK_POSITION]) &&
             [0, 1, 1.5, 2, 2.5, 3, 3.5, 3.7, 4].includes(
