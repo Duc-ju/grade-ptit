@@ -12,9 +12,9 @@ import {
   FileContext,
   FileContextType,
 } from "../../../context-api/FileProvider";
-import getSummaryNewSemesterGroup from "../../../utils/getSummaryNewSemesterGroup";
+import calculateNewCPAToSemester from "../../../utils/calculateNewCPAToSemester";
 import classes from "./gradeChart.module.css";
-import getSummaryNewSemester from "../../../utils/getSummaryNewSemester";
+import calculateNewGPASemester from "../../../utils/calculateNewGPASemester";
 import ReactTooltip from "react-tooltip";
 
 export default function GradeChart() {
@@ -22,11 +22,10 @@ export default function GradeChart() {
   const data = semesterState.map((semester, index) => {
     return {
       name: semester.name,
-      "Điểm GPA học kỳ": getSummaryNewSemester(semester).average.toFixed(2),
-      "Điểm CPA": getSummaryNewSemesterGroup(
-        index,
-        semesterState
-      ).average.toFixed(2),
+      "Điểm GPA học kỳ": calculateNewGPASemester(semester).gpa.toFixed(2),
+      "Điểm CPA": calculateNewCPAToSemester(index, semesterState).gpa.toFixed(
+        2
+      ),
     };
   });
 

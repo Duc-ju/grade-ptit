@@ -11,7 +11,7 @@ import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
 // @ts-ignore
 import mergeClassNames from "merge-class-names";
-import { convertTime } from "../../utils/convertTime";
+import { convertTimeToString } from "../../utils/convertTimeToString";
 import sampleFileJSON from "./sampleFile.json";
 import useHideFooter from "../../hooks/useHideFooter";
 import useHideSnowFlakeButton from "../../hooks/useHideSnowFlakeButton";
@@ -140,7 +140,7 @@ function ScheduleGrade() {
         </div>
       )}
       <div className={classes.createTime}>
-        <span>{`Hồ sơ được tạo vào lúc ${convertTime(
+        <span>{`Hồ sơ được tạo vào lúc ${convertTimeToString(
           file?.createAt?.seconds
         )}`}</span>
       </div>

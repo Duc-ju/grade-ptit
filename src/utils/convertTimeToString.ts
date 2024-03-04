@@ -1,4 +1,4 @@
-export function convertTime(seconds: number | undefined | null) {
+export function convertTimeToString(seconds: number | undefined | null) {
   if (!seconds) return "";
   const date = new Date(seconds * 1000);
   const now = new Date();

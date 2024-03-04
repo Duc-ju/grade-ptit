@@ -21,11 +21,11 @@ import { useSearchParams } from "react-router-dom";
 import { MAX_FILE_COUNT } from "../../constrain/constrain";
 import { FileContext, FileContextType } from "../../context-api/FileProvider";
 import GradeChart from "./GradeChart";
-import getSummary from "../../utils/getSummary";
-import getSummaryNew from "../../utils/getSummaryNew";
+import calculateCPA from "../../utils/calculateCPA";
+import calculateNewCPA from "../../utils/calculateNewCPA";
 import getDroppedRankInfo from "../../utils/getDroppedRankInfo";
 import { AiFillWarning } from "@react-icons/all-files/ai/AiFillWarning";
-import getSummaryTarget from "../../utils/getSummaryTarget";
+import getSummaryTarget from "../../utils/calculateTargetCPA";
 import getRandomInRange from "../../utils/getRandomInRange";
 import increaseMark from "../../utils/increaseMark";
 import { Semester } from "../../entity/semester";
@@ -62,8 +62,8 @@ function FullCourse() {
       toast.info("Khi chưa đăng nhập bạn chỉ có thể xem hồ sơ mẫu");
   }, [file, id, user]);
 
-  const summary = getSummary(semesterState);
-  const summaryNew = getSummaryNew(semesterState);
+  const cpa = calculateCPA(semesterState);
+  const newCPA = calculateNewCPA(semesterState);
   const handleSave = () => {
     if (!file) return;
     setSaveLoading(true);
@@ -382,15 +382,15 @@ function FullCourse() {
             semester: semesterState,
           })
         );
-        let changeList = [];
+        let semesterChangeList = [];
         for (let semesterElement of clonedFile.semester) {
-          let changeObject: ExcelSubjectChange[] = [];
+          let subjectChangeList: ExcelSubjectChange[] = [];
           for (let subject of semesterElement.subjects) {
             if (subject.mappingId && subject.mappingId.length) {
               subject.mappingId.forEach((id: string) => {
                 if (subject.mappingId && markMap.has(id)) {
                   let newMark = markMap.get(id);
-                  changeObject.push({
+                  subjectChangeList.push({
                     oldInfo: { ...subject },
                     newMark: newMark,
                   });
@@ -400,17 +400,17 @@ function FullCourse() {
             }
           }
           // add new item to change list
-          if (changeObject.length > 0) {
-            changeList.push({
+          if (subjectChangeList.length > 0) {
+            semesterChangeList.push({
               semester: {
                 id: semesterElement.id,
                 name: semesterElement.name,
               },
-              changes: changeObject,
+              changes: subjectChangeList,
             });
           }
         }
-        if (changeList.length === 0) {
+        if (semesterChangeList.length === 0) {
           toast.error(
             "File không đúng định dạng hoặc hồ sơ của bạn chưa được cập nhật mới nhất"
           );
@@ -419,7 +419,7 @@ function FullCourse() {
         let newSemesterState = processSemesterState(clonedFile, false);
         showModal(
           <ExcelImport
-            changeList={changeList}
+            changeList={semesterChangeList}
             importProcess={() => importProcess(clonedFile, newSemesterState)}
             fillProcess={() => {
               setFile({
@@ -566,11 +566,9 @@ function FullCourse() {
           value={file.target}
         >
           <option value={""}>Đặt mục tiêu</option>
-          {summaryNew.average < 2.5 && <option value={"2.5"}>Bằng khá</option>}
-          {summaryNew.average < 3.2 && <option value={"3.2"}>Bằng giỏi</option>}
-          {summaryNew.average < 3.7 && (
-            <option value={"3.7"}>Bằng xuất sắc</option>
-          )}
+          {newCPA.cpa < 2.5 && <option value={"2.5"}>Bằng khá</option>}
+          {newCPA.cpa < 3.2 && <option value={"3.2"}>Bằng giỏi</option>}
+          {newCPA.cpa < 3.7 && <option value={"3.7"}>Bằng xuất sắc</option>}
         </select>
       </div>
       {semesterState && (
@@ -583,7 +581,7 @@ function FullCourse() {
                 semesterIndex={index}
               />
             ))}
-            {droppedRankInfo.isDropped && summaryNew.average >= 3.2 && (
+            {droppedRankInfo.isDropped && newCPA.cpa >= 3.2 && (
               <div className={classes.droppedInfo}>
                 <AiFillWarning />
                 {`Bạn đã trượt ${
@@ -595,9 +593,9 @@ function FullCourse() {
                 }%, tương ứng với ${
                   droppedRankInfo.maxFailCredit
                 } tín chỉ. Rất có thể bạn sẽ bị hạ bằng từ ${
-                  summaryNew.average >= 3.6 ? "xuất sắc" : "giỏi"
+                  newCPA.cpa >= 3.6 ? "xuất sắc" : "giỏi"
                 } xuống ${
-                  summaryNew.average >= 3.6 ? "giỏi" : "khá"
+                  newCPA.cpa >= 3.6 ? "giỏi" : "khá"
                 }. Hãy tìm hiểu thêm nhé.`}
               </div>
             )}
@@ -605,22 +603,20 @@ function FullCourse() {
 
           <div className={classes.summary}>
             <h2 className={classes.footerTitle}>Thông tin điểm tích luỹ</h2>
-            {!isNaN(summary.average) ? (
+            {!isNaN(cpa.cpa) ? (
               <>
                 <p>
                   Điểm trung bình tích luỹ:{" "}
                   <span
                     className={
-                      summary.average !== summaryNew.average
-                        ? classes.lineThrough
-                        : ""
+                      cpa.cpa !== newCPA.cpa ? classes.lineThrough : ""
                     }
                   >
-                    {summary.average.toFixed(3)}
+                    {cpa.cpa.toFixed(3)}
                   </span>
-                  {summary.average !== summaryNew.average && (
+                  {cpa.cpa !== newCPA.cpa && (
                     <span className={classes.newSumary}>
-                      {summaryNew.average.toFixed(3)}
+                      {newCPA.cpa.toFixed(3)}
                     </span>
                   )}
                 </p>
@@ -628,16 +624,18 @@ function FullCourse() {
                   Số tín chỉ tích luỹ:{" "}
                   <span
                     className={
-                      summary.sumPass !== summaryNew.sumPass
+                      cpa.sumOfPassedSubjectCredit !==
+                      newCPA.sumOfPassedSubjectCredit
                         ? classes.lineThrough
                         : ""
                     }
                   >
-                    {summary.sumPass}
+                    {cpa.sumOfPassedSubjectCredit}
                   </span>
-                  {summary.sumPass !== summaryNew.sumPass && (
+                  {cpa.sumOfPassedSubjectCredit !==
+                    newCPA.sumOfPassedSubjectCredit && (
                     <span className={classes.newSumary}>
-                      {summaryNew.sumPass}
+                      {newCPA.sumOfPassedSubjectCredit}
                     </span>
                   )}
                 </p>

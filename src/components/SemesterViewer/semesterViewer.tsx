@@ -13,10 +13,10 @@ import {
 } from "../../context-api/ModalProvider";
 import { db } from "../../firebase/config";
 import { toast } from "react-toastify";
-import getSummarySemester from "../../utils/getSummarySemester";
-import getSummaryNewSemester from "../../utils/getSummaryNewSemester";
-import getSummarySemesterGroup from "../../utils/getSummarySemesterGroup";
-import getSummaryNewSemesterGroup from "../../utils/getSummaryNewSemesterGroup";
+import calculateGPASemester from "../../utils/calculateGPASemester";
+import calculateNewGPASemester from "../../utils/calculateNewGPASemester";
+import calculateCPAToSemester from "../../utils/calculateCPAToSemester";
+import calculateNewCPAToSemester from "../../utils/calculateNewCPAToSemester";
 import { Semester } from "../../entity/semester";
 import { Subject } from "../../entity/subject";
 
@@ -29,14 +29,11 @@ function SemesterViewer(props: { semester: Semester; semesterIndex: number }) {
   const { showModal } = useContext(ModalContext) as ModalContextType;
   const [edit, setEdit] = useState(false);
 
-  const summary = getSummarySemester(semester);
-  const summaryNew = getSummaryNewSemester(semester);
+  const gpa = calculateGPASemester(semester);
+  const newGPA = calculateNewGPASemester(semester);
 
-  const summaryGroup = getSummarySemesterGroup(semesterIndex, semesterState);
-  const summaryGroupNew = getSummaryNewSemesterGroup(
-    semesterIndex,
-    semesterState
-  );
+  const cpa = calculateCPAToSemester(semesterIndex, semesterState);
+  const newCPA = calculateNewCPAToSemester(semesterIndex, semesterState);
 
   const handleAddSubject = () => {
     showModal(
@@ -140,64 +137,58 @@ function SemesterViewer(props: { semester: Semester; semesterIndex: number }) {
             ))}
           </div>
           <div className={classes.summary}>
-            {summary ? (
+            {gpa ? (
               <>
                 <p>
                   Điểm trung bình học kì:{" "}
                   <span
                     className={
-                      summary.average !== summaryNew.average &&
-                      !isNaN(summaryNew.average)
+                      gpa.gpa !== newGPA.gpa && !isNaN(newGPA.gpa)
                         ? classes.lineThrough
                         : ""
                     }
                   >
-                    {isNaN(summary.average)
-                      ? "Thiếu dữ liệu"
-                      : summary.average.toFixed(3)}
+                    {isNaN(gpa.gpa) ? "Thiếu dữ liệu" : gpa.gpa.toFixed(3)}
                   </span>
-                  {summary.average !== summaryNew.average &&
-                    !isNaN(summaryNew.average) && (
-                      <span className={classes.newSumary}>
-                        {summaryNew.average.toFixed(3)}
-                      </span>
-                    )}
+                  {gpa.gpa !== newGPA.gpa && !isNaN(newGPA.gpa) && (
+                    <span className={classes.newSumary}>
+                      {newGPA.gpa.toFixed(3)}
+                    </span>
+                  )}
                 </p>
                 <p>
                   Điểm trung bình tích luỹ:{" "}
                   <span
                     className={
-                      summaryGroup.average !== summaryGroupNew.average &&
-                      !isNaN(summaryGroupNew.average)
+                      cpa.gpa !== newCPA.gpa && !isNaN(newCPA.gpa)
                         ? classes.lineThrough
                         : ""
                     }
                   >
-                    {isNaN(summaryGroup.average)
-                      ? "Thiếu dữ liệu"
-                      : summaryGroup.average.toFixed(3)}
+                    {isNaN(cpa.gpa) ? "Thiếu dữ liệu" : cpa.gpa.toFixed(3)}
                   </span>
-                  {summaryGroup.average !== summaryGroupNew.average &&
-                    !isNaN(summaryGroupNew.average) && (
-                      <span className={classes.newSumary}>
-                        {summaryGroupNew.average.toFixed(3)}
-                      </span>
-                    )}
+                  {cpa.gpa !== newCPA.gpa && !isNaN(newCPA.gpa) && (
+                    <span className={classes.newSumary}>
+                      {newCPA.gpa.toFixed(3)}
+                    </span>
+                  )}
                 </p>
                 <p>
                   Số tín chỉ đạt:{" "}
                   <span
                     className={
-                      summary.sumPass !== summaryNew.sumPass
+                      gpa.sumOfPassedSubjectCredit !==
+                      newGPA.sumOfPassedSubjectCredit
                         ? classes.lineThrough
                         : ""
                     }
                   >
-                    {summary.sumPass}
+                    {gpa.sumOfPassedSubjectCredit}
                   </span>
-                  {summary.sumPass !== summaryNew.sumPass && (
+                  {gpa.sumOfPassedSubjectCredit !==
+                    newGPA.sumOfPassedSubjectCredit && (
                     <span className={classes.newSumary}>
-                      {summaryNew.sumPass}
+                      {newGPA.sumOfPassedSubjectCredit}
                     </span>
                   )}
                 </p>
@@ -205,16 +196,18 @@ function SemesterViewer(props: { semester: Semester; semesterIndex: number }) {
                   Số tín chỉ tích luỹ:{" "}
                   <span
                     className={
-                      summaryGroup.sumPass !== summaryGroupNew.sumPass
+                      cpa.sumOfPassedSubjectCredit !==
+                      newCPA.sumOfPassedSubjectCredit
                         ? classes.lineThrough
                         : ""
                     }
                   >
-                    {summaryGroup.sumPass}
+                    {cpa.sumOfPassedSubjectCredit}
                   </span>
-                  {summaryGroup.sumPass !== summaryGroupNew.sumPass && (
+                  {cpa.sumOfPassedSubjectCredit !==
+                    newCPA.sumOfPassedSubjectCredit && (
                     <span className={classes.newSumary}>
-                      {summaryGroupNew.sumPass}
+                      {newCPA.sumOfPassedSubjectCredit}
                     </span>
                   )}
                 </p>

@@ -13,16 +13,16 @@ export default function getSummaryTarget(semesterState: Semester[]) {
         : curr.mark;
       return prev + curr.credit * (mark || 0);
     }, 0);
-    const sumPass = subjectsFilter.reduce((prev, curr) => {
+    const sumOfPassedSubjectCredit = subjectsFilter.reduce((prev, curr) => {
       if (curr.mark === 0 && !curr.newMark && !curr.targetMark) return prev;
       return prev + curr.credit;
     }, 0);
-    const sumCredit = subjectsFilter.reduce((prev, curr) => {
+    const sumOfSubjectCredit = subjectsFilter.reduce((prev, curr) => {
       return prev + curr.credit;
     }, 0);
     return {
-      sum: sumCredit,
-      sumPass: sumPass,
+      sumOfSubjectCredit,
+      sumOfPassedSubjectCredit,
       sumProduct,
     };
   });
@@ -32,15 +32,15 @@ export default function getSummaryTarget(semesterState: Semester[]) {
   const sumProduct = subjectsFilter.reduce((prev, curr) => {
     return prev + curr.sumProduct;
   }, 0);
-  const sumCredit = subjectsFilter.reduce((prev, curr) => {
-    return prev + curr.sum;
+  const sumOfSubjectCredit = subjectsFilter.reduce((prev, curr) => {
+    return prev + curr.sumOfSubjectCredit;
   }, 0);
-  const sumPass = subjectsFilter.reduce((prev, curr) => {
-    return prev + curr.sumPass;
+  const sumOfPassedSubjectCredit = subjectsFilter.reduce((prev, curr) => {
+    return prev + curr.sumOfPassedSubjectCredit;
   }, 0);
   return {
-    sum: sumCredit,
-    sumPass,
-    average: sumProduct / sumPass,
+    sumOfSubjectCredit,
+    sumOfPassedSubjectCredit,
+    average: sumProduct / sumOfPassedSubjectCredit,
   };
 }
