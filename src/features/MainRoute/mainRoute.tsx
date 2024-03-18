@@ -17,6 +17,7 @@ import EditSemesterTool from "../../admin/EditSemesterTool";
 import NotFound from "../../components/NotFound";
 import useScrollTop from "../../hooks/useScrollTop";
 import ExcelSemesterConvertTool from "../../admin/ExcelSemesterConvertTool";
+import Privacy from "../../components/Privacy";
 
 function MainRoute() {
   useScrollTop();
@@ -44,6 +45,7 @@ function MainRoute() {
           <Route path="/update-root-file/:id" element={<CreateRootFile />} />
           <Route path={"/find-file"} element={<FindFile />} />
           <Route path={"/calc-point"} element={<CalcPoint />} />
+          <Route path={"/privacy"} element={<Privacy />} />
           {window.location.hostname === "localhost" && (
             <>
               <Route
