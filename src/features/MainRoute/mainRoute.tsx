@@ -18,6 +18,7 @@ import NotFound from "../../components/NotFound";
 import useScrollTop from "../../hooks/useScrollTop";
 import ExcelSemesterConvertTool from "../../admin/ExcelSemesterConvertTool";
 import Privacy from "../../components/Privacy";
+import DeleteAccount from "../../components/DeleteAccount";
 
 function MainRoute() {
   useScrollTop();
@@ -46,6 +47,7 @@ function MainRoute() {
           <Route path={"/find-file"} element={<FindFile />} />
           <Route path={"/calc-point"} element={<CalcPoint />} />
           <Route path={"/privacy"} element={<Privacy />} />
+          <Route path={"/delete-acount"} element={<DeleteAccount />} />
           {window.location.hostname === "localhost" && (
             <>
               <Route
