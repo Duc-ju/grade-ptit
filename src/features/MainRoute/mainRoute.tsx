@@ -19,6 +19,7 @@ import useScrollTop from "../../hooks/useScrollTop";
 import ExcelSemesterConvertTool from "../../admin/ExcelSemesterConvertTool";
 import Privacy from "../../components/Privacy";
 import DeleteAccount from "../../components/DeleteAccount";
+import QuestionConverter from "../../admin/QuestionConverter";
 
 function MainRoute() {
   useScrollTop();
@@ -60,6 +61,10 @@ function MainRoute() {
               />
             </>
           )}
+          <Route
+            path={"/admin/question-convert"}
+            element={<QuestionConverter />}
+          />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </div>

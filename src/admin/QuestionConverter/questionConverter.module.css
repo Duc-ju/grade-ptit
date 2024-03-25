@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    padding: 32px;
+    column-gap: 2%;
+}
+
+.root .inputLeft {
+    width: 49%;
+}
+
+.root .resultRight {
+    width: 49%;
+}
+
+.root label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.root input[type = "checkbox"] {
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+.root input {
+    width: 90%;
+}
+
+.root input, .root textarea {
+    background-color: var(--background-color-primary);
+    border: 1px solid var(--background-color-primary);
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.root input:focus-visible, .root select:focus-visible {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.root {
+    min-height: calc(100vh - var(--header-height) - 120px);
+}
+
+.root textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.addButton {
+    margin-top: 32px;
+}
